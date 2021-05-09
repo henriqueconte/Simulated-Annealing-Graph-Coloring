@@ -1,6 +1,6 @@
 import sys
 
-file_list = ['2-FullIns_3.col', '2-FullIns_4.col', '4-FullIns_3.col', '5-FullIns_3.col', 'queen5_5.col', 'queen6_6.col', 'queen7_7.col', 'queen9_9.col', 'queen10_10.col', 'queen11_11.col']
+file_list = ['2-FullIns_3.col', '2-FullIns_4.col', '4-FullIns_3.col', '5-FullIns_3.col', 'queen5_5.col', 'queen6_6.col', 'queen7_7.col', 'queen9_9.col', 'queen10_10.col', 'queen11_11.col', 'quickTest.col']
 
 def colToDat(file_name):
     input_filename = '../Instances/' + file_name
@@ -29,11 +29,22 @@ def colToDat(file_name):
     # Write .dat file
     with open(output_filename,'w') as output:
         output.write('data;\n')
+        
+        # Creates sets
         output.write(f"set V := {' '.join(map(str, range(1,vertex_count+1)))};\n")
         output.write(f"set E :=")
         for edge in edges:
             output.write(f'\n\t({edge[0]},{edge[1]})')
         output.write(';\n')
+
+        # Creates params
+        # output.write(f'param color :=')
+        # for i in range(vertex_count):
+        #     output.write(f'\n\t{i+1}')
+        # output.write(';\n')
+        output.write(f'param vertexCount := {vertex_count};\n')
+
+        # Ends the .dat file
         output.write('end;\n')
 
 

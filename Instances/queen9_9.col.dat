@@ -4225,4 +4225,5 @@ set E :=
 	(9,81)
 	(81,1)
 	(1,81);
+param vertexCount := 81;
 end;

@@ -1905,4 +1905,5 @@ set E :=
 	(7,49)
 	(49,1)
 	(1,49);
+param vertexCount := 49;
 end;

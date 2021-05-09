@@ -403,4 +403,5 @@ set E :=
 	(52,50)
 	(51,52)
 	(52,51);
+param vertexCount := 52;
 end;
