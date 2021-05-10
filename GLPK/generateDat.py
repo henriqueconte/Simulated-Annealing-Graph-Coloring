@@ -26,6 +26,8 @@ def colToDat(file_name):
             edges.append((first_vertex, second_vertex))
             edges.append((second_vertex, first_vertex))
 
+        edges = list(set([i for i in edges]))
+
     # Write .dat file
     with open(output_filename,'w') as output:
         output.write('data;\n')
