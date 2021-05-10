@@ -1,0 +1,10 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ -m ../GLPK/GraphColoringGLPK.mod -d queen7_7.col.dat -o ../sol/queen7_7.col.dat.sol
+Reading model section from ../GLPK/GraphColoringGLPK.mod...
+../GLPK/GraphColoringGLPK.mod:28: warning: unexpected end of file; missing end statement inserted
+28 lines were read
+Reading data section from queen7_7.col.dat...
+queen7_7.col.dat:75: duplicate tuple (2,1) detected
+Context:  2 ) ( 2 , 37 ) ( 37 , 2 ) ( 2 , 44 ) ( 44 , 2 ) ( 2 , 1 ) (
+MathProg model processing error

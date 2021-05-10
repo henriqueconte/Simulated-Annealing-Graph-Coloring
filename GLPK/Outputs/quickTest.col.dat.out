@@ -1,0 +1,42 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ -m ../GLPK/GraphColoringGLPK.mod -d quickTest.col.dat -o ../sol/quickTest.col.dat.sol
+Reading model section from ../GLPK/GraphColoringGLPK.mod...
+../GLPK/GraphColoringGLPK.mod:28: warning: unexpected end of file; missing end statement inserted
+28 lines were read
+Reading data section from quickTest.col.dat...
+45 lines were read
+Generating colors_count...
+Generating R1...
+Generating R2...
+Generating R3...
+Model has been successfully generated
+GLPK Integer Optimizer 5.0
+462 rows, 132 columns, 1672 non-zeros
+132 integer variables, all of which are binary
+Preprocessing...
+461 rows, 132 columns, 1661 non-zeros
+132 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 461
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+461 rows, 132 columns, 1661 non-zeros
+      0: obj =   0.000000000e+00 inf =   9.100e+01 (41)
+    145: obj =   2.744318182e+00 inf =   5.407e-16 (0) 1
+*   221: obj =   2.000000000e+00 inf =   9.345e-14 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++   221: mip =     not found yet >=              -inf        (1; 0)
+Solution found by heuristic: 4
++  4670: mip =   4.000000000e+00 >=     tree is empty   0.0% (0; 267)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   0.3 secs
+Memory used: 1.4 Mb (1437690 bytes)
+Writing MIP solution to '../sol/quickTest.col.dat.sol'...
+Unable to create '../sol/quickTest.col.dat.sol' - No such file or directory
+Unable to write problem solution

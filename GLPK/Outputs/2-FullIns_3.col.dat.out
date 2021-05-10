@@ -93,3 +93,1335 @@ Time used: 257.5 secs.  Memory used: 34.2 Mb.
 +164802: mip =     not found yet >=   3.000000000e+00        (158; 6)
 Time used: 319.0 secs.  Memory used: 34.7 Mb.
 +168818: mip =     not found yet >=   3.000000000e+00        (161; 6)
++171991: mip =     not found yet >=   3.000000000e+00        (164; 6)
++173595: mip =     not found yet >=   3.000000000e+00        (168; 6)
+#182118: obj =   3.114521692e+00 inf =   0.000e+00 (2109) 75 80%
+#185039: obj =   3.115914065e+00 inf =   1.206e-13 (0) 28 73%
++185039: mip =     not found yet >=   3.000000000e+00        (168; 7)
++193301: mip =     not found yet >=   3.000000000e+00        (169; 7)
++196715: mip =     not found yet >=   3.000000000e+00        (173; 7)
++198075: mip =     not found yet >=   3.000000000e+00        (181; 7)
++204404: mip =     not found yet >=   3.000000000e+00        (181; 8)
+Time used: 379.0 secs.  Memory used: 35.7 Mb.
++207683: mip =     not found yet >=   3.000000000e+00        (186; 9)
++210856: mip =     not found yet >=   3.000000000e+00        (189; 9)
++221702: mip =     not found yet >=   3.000000000e+00        (191; 9)
++224416: mip =     not found yet >=   3.000000000e+00        (195; 9)
++226185: mip =     not found yet >=   3.000000000e+00        (200; 9)
++228200: mip =     not found yet >=   3.000000000e+00        (204; 9)
++230264: mip =     not found yet >=   3.000000000e+00        (209; 9)
+#242055: obj =   3.111125853e+00 inf =   0.000e+00 (3358) 87 69%
+ 246111: sum =   7.940175376e-01 inf =   7.940e-01 (259) 39 46%
+ 249824: sum =   2.781603542e-02 inf =   2.782e-02 (4) 25 35%
+ 253702: sum =   2.543399758e-02 inf =   2.543e-02 (3) 26 32%
+ 257760: sum =   1.158812493e-02 inf =   1.159e-02 (1) 31 45%
+ 259287: sum =   0.000000000e+00 inf =   2.538e-15 (0) 13 58%
+#263852: obj =   3.065728631e+00 inf =   3.394e-11 (4096) 37 7%
+Warning: numerical instability (dual simplex, phase II)
+ 265537: sum =   0.000000000e+00 inf =   1.590e-15 (0) 17 27%
+Warning: numerical instability (dual simplex, phase II)
+ 265659: sum =   0.000000000e+00 inf =   4.317e-16 (0) 1 26%
+Warning: numerical instability (dual simplex, phase II)
+ 266069: sum =   0.000000000e+00 inf =   4.510e-17 (0) 4 31%
+Warning: numerical instability (dual simplex, phase II)
+ 268395: sum =   0.000000000e+00 inf =   6.872e-15 (0) 22 35%
+Warning: numerical instability (dual simplex, phase II)
+ 268585: sum =   0.000000000e+00 inf =   2.255e-16 (0) 2 42%
+Warning: numerical instability (dual simplex, phase II)
+ 268781: sum =   0.000000000e+00 inf =   1.509e-16 (0) 2 21%
+Warning: numerical instability (dual simplex, phase II)
+ 270143: sum =   0.000000000e+00 inf =   2.072e-15 (0) 13 56%
+Warning: numerical instability (dual simplex, phase II)
+Warning: numerical instability (dual simplex, phase II)
+ 272840: sum =   0.000000000e+00 inf =   8.300e-13 (0) 26 18%
+Warning: numerical instability (dual simplex, phase II)
+Warning: dual simplex failed due to excessive numerical instability
++276784: mip =     not found yet >=   3.000000000e+00        (212; 10)
+Time used: 481.5 secs.  Memory used: 36.3 Mb.
++281090: mip =     not found yet >=   3.000000000e+00        (214; 10)
++281255: mip =     not found yet >=   3.000000000e+00        (220; 10)
++281696: mip =     not found yet >=   3.000000000e+00        (226; 10)
++282294: mip =     not found yet >=   3.000000000e+00        (232; 10)
++284553: mip =     not found yet >=   3.000000000e+00        (239; 10)
++286175: mip =     not found yet >=   3.000000000e+00        (244; 10)
++288107: mip =     not found yet >=   3.000000000e+00        (250; 10)
++290952: mip =     not found yet >=   3.000000000e+00        (260; 10)
++295566: mip =     not found yet >=   3.000000000e+00        (263; 11)
++299345: mip =     not found yet >=   3.000000000e+00        (265; 11)
+Time used: 541.9 secs.  Memory used: 37.2 Mb.
++302127: mip =     not found yet >=   3.000000000e+00        (268; 11)
++304096: mip =     not found yet >=   3.000000000e+00        (272; 11)
++306130: mip =     not found yet >=   3.000000000e+00        (276; 11)
++309265: mip =     not found yet >=   3.000000000e+00        (284; 11)
+#318730: obj =   3.127068214e+00 inf =   0.000e+00 (1547) 78 84%
+#320070: obj =   3.127097167e+00 inf =   8.995e-14 (0) 13 96%
++320070: mip =     not found yet >=   3.000000000e+00        (291; 12)
+Warning: numerical instability (dual simplex, phase I)
+#328580: obj =   2.722559078e+00 inf =   8.150e-14 (6393) 76 71%
+Warning: numerical instability (dual simplex, phase II)
+Warning: numerical instability (dual simplex, phase II)
+ 329432: sum =   0.000000000e+00 inf =   0.000e+00 (0) 7 0%
+Warning: numerical instability (dual simplex, phase II)
+ 331518: sum =   0.000000000e+00 inf =   8.088e-16 (0) 20 59%
+Warning: numerical instability (dual simplex, phase II)
+ 331773: sum =   0.000000000e+00 inf =   2.073e-16 (0) 2 41%
+Warning: numerical instability (dual simplex, phase II)
+ 331976: sum =   0.000000000e+00 inf =   1.462e-16 (0) 2 53%
+Warning: numerical instability (dual simplex, phase II)
+ 332181: sum =   0.000000000e+00 inf =   5.933e-16 (0) 2 33%
+Warning: numerical instability (dual simplex, phase II)
+Warning: numerical instability (dual simplex, phase I)
+ 332425: sum =   0.000000000e+00 inf =   3.157e-16 (0) 2 40%
+#333656: obj =   3.147229394e+00 inf =   4.744e-14 (0) 12 3%
++333656: mip =     not found yet >=   3.000000000e+00        (292; 12)
+#341814: obj =   3.312962711e+00 inf =   0.000e+00 (1986) 78 81%
+#343300: obj =   3.313790681e+00 inf =   1.191e-13 (0) 14 98%
++343300: mip =     not found yet >=   3.000000000e+00        (295; 12)
+Time used: 608.4 secs.  Memory used: 38.2 Mb.
++346371: mip =     not found yet >=   3.000000000e+00        (298; 12)
++348037: mip =     not found yet >=   3.000000000e+00        (303; 12)
++352888: mip =     not found yet >=   3.000000000e+00        (308; 12)
++356110: mip =     not found yet >=   3.000000000e+00        (314; 14)
+#364131: obj =   3.500000750e+00 inf =   0.000e+00 (2606) 78 81%
+#364411: obj =   3.500000000e+00 inf =   2.780e-13 (0) 3 100%
++364411: mip =     not found yet >=   3.000000000e+00        (315; 14)
++367677: mip =     not found yet >=   3.000000000e+00        (319; 14)
++370001: mip =     not found yet >=   3.000000000e+00        (324; 14)
++375033: mip =     not found yet >=   3.000000000e+00        (328; 14)
+Time used: 668.5 secs.  Memory used: 39.2 Mb.
++378818: mip =     not found yet >=   3.000000000e+00        (334; 15)
++386965: mip =     not found yet >=   3.000000000e+00        (335; 15)
++391721: mip =     not found yet >=   3.000000000e+00        (336; 15)
++396364: mip =     not found yet >=   3.000000000e+00        (339; 15)
++400068: mip =     not found yet >=   3.000000000e+00        (346; 16)
++405440: mip =     not found yet >=   3.000000000e+00        (347; 16)
++409239: mip =     not found yet >=   3.000000000e+00        (350; 16)
++412882: mip =     not found yet >=   3.000000000e+00        (357; 16)
++416365: mip =     not found yet >=   3.000000000e+00        (366; 16)
+#426643: obj =   3.130342063e+00 inf =   0.000e+00 (1255) 82 84%
+#427191: obj =   3.130400111e+00 inf =   1.002e-13 (0) 5 96%
++427191: mip =     not found yet >=   3.000000000e+00        (375; 17)
+Time used: 738.6 secs.  Memory used: 40.4 Mb.
+#435654: obj =   3.131130576e+00 inf =   0.000e+00 (1271) 78 96%
+#437071: obj =   3.131267543e+00 inf =   2.569e-13 (0) 14 94%
++437071: mip =     not found yet >=   3.000000000e+00        (378; 17)
+#444929: obj =   3.284588176e+00 inf =   0.000e+00 (4193) 77 86%
+#447101: obj =   4.500000000e+00 inf =   2.854e-12 (1293) 21 94%
++447101: mip =     not found yet >=   3.000000000e+00        (377; 18)
++454190: mip =     not found yet >=   3.000000000e+00        (380; 18)
++457509: mip =     not found yet >=   3.000000000e+00        (384; 18)
++459992: mip =     not found yet >=   3.000000000e+00        (389; 18)
++463177: mip =     not found yet >=   3.000000000e+00        (395; 18)
++465920: mip =     not found yet >=   3.000000000e+00        (403; 18)
+Time used: 798.7 secs.  Memory used: 40.9 Mb.
+#476304: obj =   3.089043001e+00 inf =   0.000e+00 (2590) 79 83%
+#480276: obj =   3.093612192e+00 inf =   0.000e+00 (3258) 39 94%
+#483859: obj =   3.096287800e+00 inf =   0.000e+00 (2959) 36 97%
+#487530: obj =   3.096881469e+00 inf =   0.000e+00 (1640) 36 95%
+#489878: obj =   3.097304701e+00 inf =   6.603e-14 (0) 23 93%
++489878: mip =     not found yet >=   3.000000000e+00        (407; 19)
+#497546: obj =   3.117554970e+00 inf =   0.000e+00 (2542) 75 90%
+#498748: obj =   3.117568122e+00 inf =   6.172e-14 (0) 12 98%
++498748: mip =     not found yet >=   3.000000000e+00        (408; 19)
+Warning: numerical instability (dual simplex, phase II)
+Warning: numerical instability (dual simplex, phase II)
+Warning: numerical instability (dual simplex, phase II)
+ 507311: sum =   4.428349445e-07 inf =   4.428e-07 (4) 72 50%
+ 507333: sum =   0.000000000e+00 inf =   2.194e-15 (0) 63%
+#508956: obj =   3.117583932e+00 inf =   3.504e-14 (0) 16 35%
++508956: mip =     not found yet >=   3.000000000e+00        (409; 19)
++516759: mip =     not found yet >=   3.000000000e+00        (411; 19)
+Time used: 865.6 secs.  Memory used: 41.6 Mb.
++522379: mip =     not found yet >=   3.000000000e+00        (412; 19)
++531859: mip =     not found yet >=   3.000000000e+00        (415; 20)
++537719: mip =     not found yet >=   3.000000000e+00        (418; 20)
++541269: mip =     not found yet >=   3.000000000e+00        (420; 20)
++543660: mip =     not found yet >=   3.000000000e+00        (424; 20)
++546565: mip =     not found yet >=   3.000000000e+00        (426; 20)
++549959: mip =     not found yet >=   3.000000000e+00        (431; 22)
+#557910: obj =   3.500000946e+00 inf =   0.000e+00 (2331) 77 89%
+#558875: obj =   3.500000000e+00 inf =   3.013e-13 (0) 10 100%
++558875: mip =     not found yet >=   3.000000000e+00        (432; 22)
+Time used: 929.9 secs.  Memory used: 42.6 Mb.
++561554: mip =     not found yet >=   3.000000000e+00        (435; 22)
++563221: mip =     not found yet >=   3.000000000e+00        (439; 22)
++564911: mip =     not found yet >=   3.000000000e+00        (444; 22)
++567681: mip =     not found yet >=   3.000000000e+00        (447; 22)
+#576285: obj =   3.333334696e+00 inf =   0.000e+00 (2145) 79 88%
+#576976: obj =   3.333333333e+00 inf =   1.723e-13 (0) 7 100%
++576976: mip =     not found yet >=   3.000000000e+00        (453; 23)
++580014: mip =     not found yet >=   3.000000000e+00        (456; 23)
++583983: mip =     not found yet >=   3.000000000e+00        (459; 23)
++587528: mip =     not found yet >=   3.000000000e+00        (466; 23)
+Time used: 989.9 secs.  Memory used: 44.1 Mb.
++593106: mip =     not found yet >=   3.000000000e+00        (470; 24)
++600130: mip =     not found yet >=   3.000000000e+00        (471; 24)
++603154: mip =     not found yet >=   3.000000000e+00        (473; 24)
++606357: mip =     not found yet >=   3.000000000e+00        (478; 24)
++609582: mip =     not found yet >=   3.000000000e+00        (485; 24)
++615983: mip =     not found yet >=   3.000000000e+00        (487; 25)
++618585: mip =     not found yet >=   3.000000000e+00        (491; 25)
++621049: mip =     not found yet >=   3.000000000e+00        (495; 25)
++625431: mip =     not found yet >=   3.000000000e+00        (497; 25)
++628393: mip =     not found yet >=   3.000000000e+00        (499; 26)
+Time used: 1050.3 secs.  Memory used: 45.3 Mb.
+#636904: obj =   3.106248460e+00 inf =   0.000e+00 (2564) 83 79%
+#640870: obj =   3.108130366e+00 inf =   0.000e+00 (2431) 40 95%
+#644608: obj =   3.109569010e+00 inf =   0.000e+00 (1611) 37 95%
+#645504: obj =   3.109659568e+00 inf =   3.765e-14 (0) 8 90%
++645504: mip =     not found yet >=   3.000000000e+00        (500; 26)
++649970: mip =     not found yet >=   3.000000000e+00        (501; 26)
++658847: mip =     not found yet >=   3.000000000e+00        (503; 26)
+#666161: obj =   3.299999116e+00 inf =   0.000e+00 (3326) 72 96%
+#669301: obj =   3.300000000e+00 inf =   1.624e-13 (0) 31 100%
++669301: mip =     not found yet >=   3.000000000e+00        (503; 26)
++672705: mip =     not found yet >=   3.000000000e+00        (504; 26)
+Time used: 1110.5 secs.  Memory used: 45.5 Mb.
++675675: mip =     not found yet >=   3.000000000e+00        (508; 26)
++680431: mip =     not found yet >=   3.000000000e+00        (508; 27)
+#691043: obj =   3.500001145e+00 inf =   0.000e+00 (126) 81 86%
+#691207: obj =   3.500000000e+00 inf =   1.481e-13 (0) 1 100%
++691207: mip =     not found yet >=   3.000000000e+00        (510; 28)
++694272: mip =     not found yet >=   3.000000000e+00        (513; 28)
++696908: mip =     not found yet >=   3.000000000e+00        (516; 28)
++700384: mip =     not found yet >=   3.000000000e+00        (524; 28)
++703977: mip =     not found yet >=   3.000000000e+00        (536; 28)
++711874: mip =     not found yet >=   3.000000000e+00        (536; 29)
+Time used: 1171.1 secs.  Memory used: 46.2 Mb.
++716473: mip =     not found yet >=   3.000000000e+00        (538; 29)
++719049: mip =     not found yet >=   3.000000000e+00        (543; 29)
++721743: mip =     not found yet >=   3.000000000e+00        (550; 29)
++726363: mip =     not found yet >=   3.000000000e+00        (553; 31)
++735349: mip =     not found yet >=   3.000000000e+00        (556; 31)
++737971: mip =     not found yet >=   3.000000000e+00        (560; 31)
++740525: mip =     not found yet >=   3.000000000e+00        (563; 31)
++742389: mip =     not found yet >=   3.000000000e+00        (568; 31)
++748329: mip =     not found yet >=   3.000000000e+00        (573; 32)
+#756560: obj =   3.333334123e+00 inf =   0.000e+00 (2110) 81 79%
+#757554: obj =   3.333333333e+00 inf =   9.747e-14 (0) 10 100%
++757554: mip =     not found yet >=   3.000000000e+00        (574; 32)
+Time used: 1241.2 secs.  Memory used: 47.4 Mb.
++760341: mip =     not found yet >=   3.000000000e+00        (577; 32)
++763120: mip =     not found yet >=   3.000000000e+00        (580; 32)
++767559: mip =     not found yet >=   3.000000000e+00        (587; 32)
++778290: mip =     not found yet >=   3.000000000e+00        (590; 33)
++780952: mip =     not found yet >=   3.000000000e+00        (592; 33)
++782556: mip =     not found yet >=   3.000000000e+00        (596; 33)
++785515: mip =     not found yet >=   3.000000000e+00        (599; 33)
++792836: mip =     not found yet >=   3.000000000e+00        (601; 34)
+Time used: 1301.5 secs.  Memory used: 47.9 Mb.
++795714: mip =     not found yet >=   3.000000000e+00        (605; 34)
++799210: mip =     not found yet >=   3.000000000e+00        (610; 34)
++802300: mip =     not found yet >=   3.000000000e+00        (624; 34)
++807333: mip =     not found yet >=   3.000000000e+00        (629; 35)
+#817425: obj =   3.331976298e+00 inf =   0.000e+00 (5871) 84 88%
+#821043: obj =   3.500001053e+00 inf =   0.000e+00 (3152) 36 96%
+#822107: obj =   3.500000000e+00 inf =   1.966e-13 (0) 10 100%
++822107: mip =     not found yet >=   3.000000000e+00        (631; 35)
++824928: mip =     not found yet >=   3.000000000e+00        (635; 35)
++829994: mip =     not found yet >=   3.000000000e+00        (638; 35)
++831856: mip =     not found yet >=   3.000000000e+00        (646; 36)
+Time used: 1362.7 secs.  Memory used: 48.9 Mb.
+#841365: obj =   3.166657763e+00 inf =   0.000e+00 (7274) 84 83%
+#843645: obj =   3.200000000e+00 inf =   1.071e-13 (0) 23 100%
++843645: mip =     not found yet >=   3.000000000e+00        (648; 36)
++847208: mip =     not found yet >=   3.000000000e+00        (651; 36)
++848940: mip =     not found yet >=   3.000000000e+00        (655; 36)
++851732: mip =     not found yet >=   3.000000000e+00        (659; 36)
++857807: mip =     not found yet >=   3.000000000e+00        (661; 36)
++868508: mip =     not found yet >=   3.000000000e+00        (664; 37)
++875079: mip =     not found yet >=   3.000000000e+00        (666; 38)
+Time used: 1424.1 secs.  Memory used: 49.4 Mb.
+#883228: obj =   3.180561710e+00 inf =   0.000e+00 (3699) 80 85%
+#887120: obj =   3.249999222e+00 inf =   0.000e+00 (4123) 38 84%
+#889519: obj =   3.250000000e+00 inf =   1.875e-13 (0) 23 100%
++889519: mip =     not found yet >=   3.000000000e+00        (667; 38)
++892363: mip =     not found yet >=   3.000000000e+00        (670; 38)
++895080: mip =     not found yet >=   3.000000000e+00        (673; 38)
++899629: mip =     not found yet >=   3.000000000e+00        (677; 38)
++901555: mip =     not found yet >=   3.000000000e+00        (682; 39)
++907605: mip =     not found yet >=   3.000000000e+00        (683; 39)
++912241: mip =     not found yet >=   3.000000000e+00        (687; 39)
+Time used: 1484.5 secs.  Memory used: 50.4 Mb.
++916519: mip =     not found yet >=   3.000000000e+00        (693; 40)
++922629: mip =     not found yet >=   3.000000000e+00        (695; 40)
+#931893: obj =   3.500000256e+00 inf =   0.000e+00 (5784) 90 82%
+#933712: obj =   3.500000000e+00 inf =   2.485e-13 (0) 18 100%
++933712: mip =     not found yet >=   3.000000000e+00        (696; 40)
++937922: mip =     not found yet >=   3.000000000e+00        (699; 40)
++941401: mip =     not found yet >=   3.000000000e+00        (706; 40)
++944823: mip =     not found yet >=   3.000000000e+00        (715; 40)
++953716: mip =     not found yet >=   3.000000000e+00        (717; 41)
++961424: mip =     not found yet >=   3.000000000e+00        (718; 41)
+Time used: 1547.1 secs.  Memory used: 51.4 Mb.
++965593: mip =     not found yet >=   3.000000000e+00        (719; 41)
++969758: mip =     not found yet >=   3.000000000e+00        (722; 41)
+#979191: obj =   3.333333423e+00 inf =   0.000e+00 (3954) 79 92%
+#980544: obj =   3.333333333e+00 inf =   4.021e-13 (0) 14 100%
++980544: mip =     not found yet >=   3.000000000e+00        (726; 42)
++982913: mip =     not found yet >=   3.000000000e+00        (730; 42)
++987632: mip =     not found yet >=   3.000000000e+00        (732; 42)
++991529: mip =     not found yet >=   3.000000000e+00        (733; 42)
++995350: mip =     not found yet >=   3.000000000e+00        (737; 43)
++999123: mip =     not found yet >=   3.000000000e+00        (739; 43)
+Time used: 1607.4 secs.  Memory used: 51.9 Mb.
++1001601: mip =     not found yet >=   3.000000000e+00        (746; 43)
++1003727: mip =     not found yet >=   3.000000000e+00        (752; 43)
++1005292: mip =     not found yet >=   3.000000000e+00        (759; 43)
++1006358: mip =     not found yet >=   3.000000000e+00        (762; 43)
+Time used: 3419.1 secs.  Memory used: 52.0 Mb.
++1008168: mip =     not found yet >=   3.000000000e+00        (771; 43)
+#1012372: obj =   3.053741348e+00 inf =   0.000e+00 (4634) 27 78%
+#1012813: obj =   3.063555329e+00 inf =   0.000e+00 (5219) 5 81%
+#1013268: obj =   3.076475491e+00 inf =   0.000e+00 (3482) 4 63%
+#1013653: obj =   3.079065642e+00 inf =   0.000e+00 (3757) 4 91%
+#1014098: obj =   3.084961921e+00 inf =   0.000e+00 (2606) 4 79%
+#1014542: obj =   3.086208445e+00 inf =   0.000e+00 (2662) 5 93%
+#1014987: obj =   3.087037839e+00 inf =   0.000e+00 (2498) 4 95%
+#1015249: obj =   3.088810190e+00 inf =   0.000e+00 (2923) 2 93%
+#1018181: obj =   3.139328282e+00 inf =   0.000e+00 (3536) 29 92%
+#1021349: obj =   3.153845922e+00 inf =   0.000e+00 (3110) 31 94%
+#1024453: obj =   3.166351485e+00 inf =   0.000e+00 (2963) 31 99%
+#1027766: obj =   3.166667395e+00 inf =   0.000e+00 (672) 32 97%
+#1027811: obj =   3.166666667e+00 inf =   3.196e-14 (0) 1 100%
++1027811: mip =     not found yet >=   3.000000000e+00        (776; 44)
+Time used: 4454.6 secs.  Memory used: 52.3 Mb.
++1032789: mip =     not found yet >=   3.000000000e+00        (779; 44)
++1036436: mip =     not found yet >=   3.000000000e+00        (783; 44)
++1039064: mip =     not found yet >=   3.000000000e+00        (793; 44)
++1041988: mip =     not found yet >=   3.000000000e+00        (796; 44)
++1044349: mip =     not found yet >=   3.000000000e+00        (797; 46)
++1050687: mip =     not found yet >=   3.000000000e+00        (799; 46)
++1052506: mip =     not found yet >=   3.000000000e+00        (802; 46)
++1054420: mip =     not found yet >=   3.000000000e+00        (806; 46)
++1056882: mip =     not found yet >=   3.000000000e+00        (810; 46)
+Time used: 4515.0 secs.  Memory used: 52.9 Mb.
++1061553: mip =     not found yet >=   3.000000000e+00        (816; 47)
+#1069968: obj =   3.103758400e+00 inf =   0.000e+00 (1416) 82 76%
+#1070473: obj =   3.103775575e+00 inf =   7.918e-14 (0) 5 62%
++1070473: mip =     not found yet >=   3.000000000e+00        (817; 47)
++1077786: mip =     not found yet >=   3.000000000e+00        (820; 47)
++1082467: mip =     not found yet >=   3.000000000e+00        (822; 47)
++1089161: mip =     not found yet >=   3.000000000e+00        (824; 47)
++1092969: mip =     not found yet >=   3.000000000e+00        (831; 48)
++1101962: mip =     not found yet >=   3.000000000e+00        (833; 48)
+Time used: 4576.2 secs.  Memory used: 53.6 Mb.
++1104552: mip =     not found yet >=   3.000000000e+00        (836; 48)
++1107280: mip =     not found yet >=   3.000000000e+00        (839; 48)
++1113588: mip =     not found yet >=   3.000000000e+00        (841; 48)
++1115717: mip =     not found yet >=   3.000000000e+00        (846; 48)
++1118112: mip =     not found yet >=   3.000000000e+00        (852; 48)
++1119759: mip =     not found yet >=   3.000000000e+00        (859; 48)
++1121621: mip =     not found yet >=   3.000000000e+00        (866; 48)
++1129882: mip =     not found yet >=   3.000000000e+00        (872; 49)
++1134297: mip =     not found yet >=   3.000000000e+00        (875; 49)
+Time used: 4637.2 secs.  Memory used: 54.8 Mb.
++1136398: mip =     not found yet >=   3.000000000e+00        (879; 49)
++1140063: mip =     not found yet >=   3.000000000e+00        (880; 49)
++1143392: mip =     not found yet >=   3.000000000e+00        (881; 49)
++1145855: mip =     not found yet >=   3.000000000e+00        (885; 49)
++1147993: mip =     not found yet >=   3.000000000e+00        (889; 49)
++1151747: mip =     not found yet >=   3.000000000e+00        (893; 49)
++1155731: mip =     not found yet >=   3.000000000e+00        (900; 49)
++1160222: mip =     not found yet >=   3.000000000e+00        (901; 50)
++1163956: mip =     not found yet >=   3.000000000e+00        (904; 50)
++1170618: mip =     not found yet >=   3.000000000e+00        (905; 50)
+Time used: 4698.4 secs.  Memory used: 55.4 Mb.
++1175156: mip =     not found yet >=   3.000000000e+00        (909; 50)
++1177357: mip =     not found yet >=   3.000000000e+00        (913; 50)
++1180649: mip =     not found yet >=   3.000000000e+00        (917; 51)
+#1188896: obj =   3.078157613e+00 inf =   0.000e+00 (3517) 81 80%
+#1190382: obj =   3.078838015e+00 inf =   1.773e-14 (0) 14 74%
++1190382: mip =     not found yet >=   3.000000000e+00        (918; 51)
++1196240: mip =     not found yet >=   3.000000000e+00        (921; 51)
++1201579: mip =     not found yet >=   3.000000000e+00        (921; 52)
+#1210025: obj =   3.125520704e+00 inf =   0.000e+00 (3888) 83 89%
+#1213992: obj =   3.130247391e+00 inf =   0.000e+00 (5370) 39 91%
+#1215776: obj =   3.130434783e+00 inf =   1.627e-13 (0) 18 98%
++1215776: mip =     not found yet >=   3.000000000e+00        (922; 52)
+Time used: 4762.1 secs.  Memory used: 55.8 Mb.
++1220243: mip =     not found yet >=   3.000000000e+00        (924; 52)
++1222949: mip =     not found yet >=   3.000000000e+00        (927; 52)
++1226294: mip =     not found yet >=   3.000000000e+00        (935; 52)
++1231587: mip =     not found yet >=   3.000000000e+00        (939; 53)
++1236538: mip =     not found yet >=   3.000000000e+00        (940; 53)
+#1244948: obj =   3.112539802e+00 inf =   0.000e+00 (1930) 82 79%
+#1249145: obj =   3.121567928e+00 inf =   0.000e+00 (2908) 42 79%
+#1253070: obj =   3.129646442e+00 inf =   0.000e+00 (2082) 38 89%
+#1255760: obj =   3.130434783e+00 inf =   1.338e-13 (0) 27 93%
++1255760: mip =     not found yet >=   3.000000000e+00        (941; 53)
++1259926: mip =     not found yet >=   3.000000000e+00        (943; 53)
+Time used: 4823.3 secs.  Memory used: 56.3 Mb.
++1262993: mip =     not found yet >=   3.000000000e+00        (946; 53)
++1265085: mip =     not found yet >=   3.000000000e+00        (949; 53)
++1272306: mip =     not found yet >=   3.000000000e+00        (952; 53)
++1274072: mip =     not found yet >=   3.000000000e+00        (960; 53)
++1278948: mip =     not found yet >=   3.000000000e+00        (969; 54)
++1287363: mip =     not found yet >=   3.000000000e+00        (972; 54)
++1292356: mip =     not found yet >=   3.000000000e+00        (973; 54)
++1296106: mip =     not found yet >=   3.000000000e+00        (974; 54)
+Time used: 4883.7 secs.  Memory used: 57.4 Mb.
++1298204: mip =     not found yet >=   3.000000000e+00        (978; 54)
++1302749: mip =     not found yet >=   3.000000000e+00        (985; 54)
++1309544: mip =     not found yet >=   3.000000000e+00        (992; 55)
+#1319081: obj =   3.002687306e+00 inf =   0.000e+00 (3207) 71 61%
+#1322555: obj =   3.086403932e+00 inf =   0.000e+00 (2372) 34 44%
+ 1326190: sum =   1.704688324e-01 inf =   1.705e-01 (54) 35 75%
+ 1326386: sum =   0.000000000e+00 inf =   4.542e-15 (0) 2 92%
+Warning: numerical instability (dual simplex, phase II)
+ 1329696: sum =   0.000000000e+00 inf =   4.404e-15 (0) 32 51%
+Warning: numerical instability (dual simplex, phase II)
+ 1330251: sum =   0.000000000e+00 inf =   2.721e-12 (0) 4 16%
+#1333807: obj =   3.098703713e+00 inf =   1.305e-13 (0) 35 11%
++1333807: mip =     not found yet >=   3.000000000e+00        (996; 55)
+#1340885: obj =   3.107630790e+00 inf =   0.000e+00 (948) 70 75%
+#1341563: obj =   3.108052708e+00 inf =   4.099e-14 (0) 6 61%
++1341563: mip =     not found yet >=   3.000000000e+00        (997; 55)
+Time used: 4948.0 secs.  Memory used: 58.4 Mb.
++1343485: mip =     not found yet >=   3.000000000e+00        (1001; 55)
++1344353: mip =     not found yet >=   3.000000000e+00        (1005; 55)
++1345758: mip =     not found yet >=   3.000000000e+00        (1009; 55)
++1347281: mip =     not found yet >=   3.000000000e+00        (1013; 55)
++1349395: mip =     not found yet >=   3.000000000e+00        (1016; 55)
++1350149: mip =     not found yet >=   3.000000000e+00        (1021; 55)
++1355314: mip =     not found yet >=   3.000000000e+00        (1024; 55)
++1358395: mip =     not found yet >=   3.000000000e+00        (1028; 55)
++1362311: mip =     not found yet >=   3.000000000e+00        (1030; 55)
++1365458: mip =     not found yet >=   3.000000000e+00        (1034; 55)
+Time used: 5008.7 secs.  Memory used: 59.0 Mb.
++1369312: mip =     not found yet >=   3.000000000e+00        (1036; 56)
+#1379731: obj =   3.499462552e+00 inf =   0.000e+00 (2693) 76 75%
+#1382224: obj =   3.500000000e+00 inf =   7.555e-14 (0) 25 99%
++1382224: mip =     not found yet >=   3.000000000e+00        (1039; 56)
++1386914: mip =     not found yet >=   3.000000000e+00        (1040; 56)
++1389787: mip =     not found yet >=   3.000000000e+00        (1043; 56)
+#1399744: obj =   3.333333631e+00 inf =   0.000e+00 (1582) 79 83%
+#1400097: obj =   3.333333333e+00 inf =   2.618e-14 (0) 4 100%
++1400097: mip =     not found yet >=   3.000000000e+00        (1044; 57)
++1405292: mip =     not found yet >=   3.000000000e+00        (1046; 57)
++1407883: mip =     not found yet >=   3.000000000e+00        (1050; 57)
+Time used: 5068.7 secs.  Memory used: 60.1 Mb.
++1411001: mip =     not found yet >=   3.000000000e+00        (1056; 57)
++1414144: mip =     not found yet >=   3.000000000e+00        (1063; 59)
++1418598: mip =     not found yet >=   3.000000000e+00        (1064; 59)
+#1427171: obj =   3.107106939e+00 inf =   0.000e+00 (2079) 74 87%
+#1428357: obj =   3.107106383e+00 inf =   2.110e-13 (0) 12 100%
++1428357: mip =     not found yet >=   3.000000000e+00        (1072; 59)
++1431739: mip =     not found yet >=   3.000000000e+00        (1074; 60)
+#1441355: obj =   3.012537528e+00 inf =   0.000e+00 (2585) 65 81%
+#1445292: obj =   3.020905923e+00 inf =   2.545e-14 (0) 39 84%
++1445292: mip =     not found yet >=   3.000000000e+00        (1078; 61)
+Time used: 5129.7 secs.  Memory used: 60.5 Mb.
+#1452962: obj =   3.102052529e+00 inf =   0.000e+00 (2876) 75 90%
+#1456721: obj =   3.133333338e+00 inf =   0.000e+00 (3027) 37 90%
+#1458535: obj =   3.133333333e+00 inf =   1.940e-13 (0) 18 100%
++1458535: mip =     not found yet >=   3.000000000e+00        (1079; 61)
++1464318: mip =     not found yet >=   3.000000000e+00        (1080; 61)
++1470310: mip =     not found yet >=   3.000000000e+00        (1081; 61)
++1478063: mip =     not found yet >=   3.000000000e+00        (1083; 61)
++1481007: mip =     not found yet >=   3.000000000e+00        (1084; 61)
++1483760: mip =     not found yet >=   3.000000000e+00        (1087; 61)
+Time used: 5190.6 secs.  Memory used: 60.8 Mb.
++1486374: mip =     not found yet >=   3.000000000e+00        (1091; 61)
++1490087: mip =     not found yet >=   3.000000000e+00        (1094; 62)
++1500583: mip =     not found yet >=   3.000000000e+00        (1096; 62)
++1503658: mip =     not found yet >=   3.000000000e+00        (1098; 62)
++1505437: mip =     not found yet >=   3.000000000e+00        (1101; 62)
++1508349: mip =     not found yet >=   3.000000000e+00        (1105; 62)
++1517030: mip =     not found yet >=   3.000000000e+00        (1117; 63)
++1519923: mip =     not found yet >=   3.000000000e+00        (1119; 63)
+Time used: 5251.2 secs.  Memory used: 62.1 Mb.
++1521761: mip =     not found yet >=   3.000000000e+00        (1123; 63)
++1523808: mip =     not found yet >=   3.000000000e+00        (1127; 63)
++1525960: mip =     not found yet >=   3.000000000e+00        (1131; 63)
++1529846: mip =     not found yet >=   3.000000000e+00        (1134; 64)
+#1539957: obj =   3.250001442e+00 inf =   0.000e+00 (2596) 70 86%
+#1540594: obj =   3.250000000e+00 inf =   1.039e-13 (0) 6 100%
++1540594: mip =     not found yet >=   3.000000000e+00        (1136; 64)
++1546645: mip =     not found yet >=   3.000000000e+00        (1139; 64)
+#1553708: obj =   3.200000853e+00 inf =   0.000e+00 (3426) 67 90%
+#1555625: obj =   3.200000000e+00 inf =   3.386e-13 (0) 19 100%
++1555625: mip =     not found yet >=   3.000000000e+00        (1142; 65)
+Time used: 5313.1 secs.  Memory used: 63.0 Mb.
++1558075: mip =     not found yet >=   3.000000000e+00        (1145; 65)
++1559818: mip =     not found yet >=   3.000000000e+00        (1149; 65)
++1561449: mip =     not found yet >=   3.000000000e+00        (1154; 65)
++1564264: mip =     not found yet >=   3.000000000e+00        (1158; 65)
++1568796: mip =     not found yet >=   3.000000000e+00        (1160; 67)
+#1578030: obj =   3.500001184e+00 inf =   0.000e+00 (1347) 74 90%
+#1578529: obj =   3.500000000e+00 inf =   6.062e-13 (0) 5 100%
++1578529: mip =     not found yet >=   3.000000000e+00        (1162; 67)
++1581509: mip =     not found yet >=   3.000000000e+00        (1163; 68)
++1589488: mip =     not found yet >=   3.000000000e+00        (1164; 68)
+Time used: 5373.8 secs.  Memory used: 63.7 Mb.
++1591778: mip =     not found yet >=   3.000000000e+00        (1171; 68)
++1598548: mip =     not found yet >=   3.000000000e+00        (1172; 68)
++1605886: mip =     not found yet >=   3.000000000e+00        (1176; 68)
++1609994: mip =     not found yet >=   3.000000000e+00        (1178; 69)
+#1617934: obj =   3.246458006e+00 inf =   0.000e+00 (3389) 77 87%
+#1621311: obj =   3.250001444e+00 inf =   0.000e+00 (2493) 34 99%
+#1622442: obj =   3.333333333e+00 inf =   3.782e-14 (0) 11 100%
++1622442: mip =     not found yet >=   3.000000000e+00        (1179; 69)
++1625196: mip =     not found yet >=   3.000000000e+00        (1182; 69)
++1626802: mip =     not found yet >=   3.000000000e+00        (1186; 69)
+Time used: 5434.3 secs.  Memory used: 64.1 Mb.
++1628777: mip =     not found yet >=   3.000000000e+00        (1191; 69)
++1630483: mip =     not found yet >=   3.000000000e+00        (1196; 69)
++1631967: mip =     not found yet >=   3.000000000e+00        (1201; 69)
++1633410: mip =     not found yet >=   3.000000000e+00        (1206; 69)
++1634776: mip =     not found yet >=   3.000000000e+00        (1212; 69)
++1635973: mip =     not found yet >=   3.000000000e+00        (1218; 69)
++1644994: mip =     not found yet >=   3.000000000e+00        (1222; 70)
+#1653185: obj =   3.101381572e+00 inf =   0.000e+00 (2362) 80 81%
+#1656921: obj =   3.116913492e+00 inf =   0.000e+00 (2245) 37 91%
+#1660575: obj =   3.126774526e+00 inf =   0.000e+00 (4865) 36 90%
+#1664227: obj =   3.130435017e+00 inf =   0.000e+00 (2354) 36 91%
+#1665125: obj =   3.130434783e+00 inf =   2.197e-13 (0) 9 100%
++1665125: mip =     not found yet >=   3.000000000e+00        (1223; 70)
+Time used: 5500.0 secs.  Memory used: 64.4 Mb.
++1668903: mip =     not found yet >=   3.000000000e+00        (1225; 70)
++1672406: mip =     not found yet >=   3.000000000e+00        (1227; 70)
++1676127: mip =     not found yet >=   3.000000000e+00        (1227; 72)
++1681365: mip =     not found yet >=   3.000000000e+00        (1228; 72)
+#1689235: obj =   3.098267773e+00 inf =   0.000e+00 (4155) 77 86%
+#1693021: obj =   3.105534337e+00 inf =   1.444e-14 (0) 38 81%
++1693021: mip =     not found yet >=   3.000000000e+00        (1229; 72)
++1700742: mip =     not found yet >=   3.000000000e+00        (1230; 72)
++1705730: mip =     not found yet >=   3.000000000e+00        (1232; 72)
+Time used: 5561.4 secs.  Memory used: 64.8 Mb.
++1708268: mip =     not found yet >=   3.000000000e+00        (1237; 72)
++1711929: mip =     not found yet >=   3.000000000e+00        (1241; 72)
++1714962: mip =     not found yet >=   3.000000000e+00        (1247; 72)
++1719111: mip =     not found yet >=   3.000000000e+00        (1252; 72)
++1721604: mip =     not found yet >=   3.000000000e+00        (1266; 72)
+#1732287: obj =   3.333331154e+00 inf =   0.000e+00 (4097) 82 85%
+#1734819: obj =   3.333333333e+00 inf =   1.067e-13 (0) 25 100%
++1734819: mip =     not found yet >=   3.000000000e+00        (1288; 73)
++1739802: mip =     not found yet >=   3.000000000e+00        (1289; 73)
++1741759: mip =     not found yet >=   3.000000000e+00        (1293; 73)
++1743704: mip =     not found yet >=   3.000000000e+00        (1297; 73)
+Time used: 5621.7 secs.  Memory used: 65.6 Mb.
++1745186: mip =     not found yet >=   3.000000000e+00        (1301; 73)
++1747308: mip =     not found yet >=   3.000000000e+00        (1306; 73)
++1751204: mip =     not found yet >=   3.000000000e+00        (1310; 73)
+#1760484: obj =   3.074005761e+00 inf =   0.000e+00 (1486) 81 78%
+#1761936: obj =   3.078446318e+00 inf =   8.129e-15 (0) 14 63%
++1761936: mip =     not found yet >=   3.000000000e+00        (1310; 74)
++1765633: mip =     not found yet >=   3.000000000e+00        (1315; 74)
++1769736: mip =     not found yet >=   3.000000000e+00        (1316; 74)
++1773512: mip =     not found yet >=   3.000000000e+00        (1319; 75)
+#1782046: obj =   3.042528330e+00 inf =   0.000e+00 (14) 75 68%
+#1782105: obj =   3.042530723e+00 inf =   2.645e-14 (0) 42%
++1782105: mip =     not found yet >=   3.000000000e+00        (1322; 75)
+Time used: 5682.8 secs.  Memory used: 66.1 Mb.
++1786188: mip =     not found yet >=   3.000000000e+00        (1323; 75)
++1791805: mip =     not found yet >=   3.000000000e+00        (1324; 75)
++1797690: mip =     not found yet >=   3.000000000e+00        (1325; 75)
++1800785: mip =     not found yet >=   3.000000000e+00        (1328; 75)
++1803731: mip =     not found yet >=   3.000000000e+00        (1331; 75)
++1808298: mip =     not found yet >=   3.000000000e+00        (1336; 75)
++1812750: mip =     not found yet >=   3.000000000e+00        (1345; 76)
+#1820261: obj =   3.500001051e+00 inf =   0.000e+00 (2452) 73 81%
+#1821173: obj =   3.500000000e+00 inf =   8.693e-14 (0) 9 100%
++1821173: mip =     not found yet >=   3.000000000e+00        (1346; 76)
+Time used: 5743.3 secs.  Memory used: 67.3 Mb.
++1828351: mip =     not found yet >=   3.000000000e+00        (1349; 76)
++1831898: mip =     not found yet >=   3.000000000e+00        (1355; 76)
++1835911: mip =     not found yet >=   3.000000000e+00        (1360; 76)
++1844075: mip =     not found yet >=   3.000000000e+00        (1366; 77)
++1849165: mip =     not found yet >=   3.000000000e+00        (1368; 77)
++1851167: mip =     not found yet >=   3.000000000e+00        (1373; 77)
++1859609: mip =     not found yet >=   3.000000000e+00        (1376; 77)
+Time used: 5803.9 secs.  Memory used: 68.5 Mb.
++1862502: mip =     not found yet >=   3.000000000e+00        (1380; 77)
++1864954: mip =     not found yet >=   3.000000000e+00        (1385; 77)
++1868470: mip =     not found yet >=   3.000000000e+00        (1394; 77)
++1872789: mip =     not found yet >=   3.000000000e+00        (1412; 79)
++1876211: mip =     not found yet >=   3.000000000e+00        (1413; 79)
+#1884045: obj =   3.369238632e+00 inf =   0.000e+00 (3507) 76 85%
+#1887598: obj =   3.428571990e+00 inf =   0.000e+00 (2436) 35 92%
+#1889894: obj =   3.500000000e+00 inf =   1.863e-13 (0) 23 99%
++1889894: mip =     not found yet >=   3.000000000e+00        (1414; 79)
++1892644: mip =     not found yet >=   3.000000000e+00        (1417; 79)
++1896042: mip =     not found yet >=   3.000000000e+00        (1422; 79)
++1898788: mip =     not found yet >=   3.000000000e+00        (1428; 79)
+Time used: 5864.7 secs.  Memory used: 69.8 Mb.
++1903636: mip =     not found yet >=   3.000000000e+00        (1435; 79)
++1906124: mip =     not found yet >=   3.000000000e+00        (1439; 79)
++1907655: mip =     not found yet >=   3.000000000e+00        (1444; 79)
+#1917243: obj =   3.252250107e+00 inf =   0.000e+00 (6033) 75 81%
+#1919742: obj =   3.333333333e+00 inf =   1.432e-14 (0) 25 95%
++1919742: mip =     not found yet >=   3.000000000e+00        (1445; 80)
++1922058: mip =     not found yet >=   3.000000000e+00        (1449; 80)
++1927020: mip =     not found yet >=   3.000000000e+00        (1451; 80)
++1928657: mip =     not found yet >=   3.000000000e+00        (1458; 80)
++1933009: mip =     not found yet >=   3.000000000e+00        (1463; 81)
+#1941453: obj =   3.045447643e+00 inf =   0.000e+00 (2396) 82 84%
+#1943364: obj =   3.047784313e+00 inf =   3.666e-14 (0) 19 64%
++1943364: mip =     not found yet >=   3.000000000e+00        (1464; 81)
+Time used: 5936.5 secs.  Memory used: 70.7 Mb.
+ 1954132: sum =  -7.402421951e-07 inf =   5.576e-06 (0) 72 73%
+ 1957791: sum =  -8.437694987e-15 inf =   3.741e-13 (0) 27 40%
+ 1960497: sum =   0.000000000e+00 inf =   1.364e-14 (0) 22 50%
+Warning: numerical instability (dual simplex, phase II)
+ 1961299: sum =   0.000000000e+00 inf =   3.525e-14 (0) 4 18%
+Warning: numerical instability (dual simplex, phase II)
+ 1965274: sum =   2.025285336e-07 inf =   2.025e-07 (1) 32 15%
+ 1968884: sum =  -2.664535259e-15 inf =   2.710e-13 (0) 29 44%
+ 1970441: sum =   0.000000000e+00 inf =   5.985e-14 (0) 14 59%
+Warning: numerical instability (dual simplex, phase II)
+ 1973068: sum =   0.000000000e+00 inf =   3.531e-14 (0) 20 23%
+Warning: numerical instability (dual simplex, phase II)
+ 1974715: sum =   0.000000000e+00 inf =   3.166e-16 (0) 14 5%
+Warning: numerical instability (dual simplex, phase II)
+ 1974845: sum =   0.000000000e+00 inf =   1.008e-15 (0) 1 70%
+Warning: numerical instability (dual simplex, phase II)
+ 1975075: sum =   0.000000000e+00 inf =   6.817e-16 (0) 2 41%
+Warning: numerical instability (dual simplex, phase II)
+ 1975360: sum =   0.000000000e+00 inf =   1.419e-08 (0) 3 54%
+Warning: numerical instability (dual simplex, phase II)
+ 1975528: sum =   0.000000000e+00 inf =   1.778e-16 (0) 1 55%
+Warning: numerical instability (dual simplex, phase II)
+ 1975764: sum =   0.000000000e+00 inf =   1.658e-15 (0) 2 33%
+Warning: numerical instability (dual simplex, phase II)
+Warning: dual simplex failed due to excessive numerical instability
++1984431: mip =     not found yet >=   3.000000000e+00        (1467; 81)
+Warning: numerical instability (dual simplex, phase II)
++1987448: mip =     not found yet >=   3.000000000e+00        (1468; 82)
+Time used: 5996.6 secs.  Memory used: 70.8 Mb.
++1990738: mip =     not found yet >=   3.000000000e+00        (1470; 82)
+#1998207: obj =   3.249973570e+00 inf =   0.000e+00 (6738) 73 88%
+#2001051: obj =   3.250000000e+00 inf =   8.966e-13 (0) 28 100%
++2001051: mip =     not found yet >=   3.000000000e+00        (1471; 82)
++2003835: mip =     not found yet >=   3.000000000e+00        (1474; 82)
++2008178: mip =     not found yet >=   3.000000000e+00        (1477; 82)
+#2015654: obj =   3.143912386e+00 inf =   0.000e+00 (2352) 70 91%
+#2019235: obj =   3.166667590e+00 inf =   0.000e+00 (1354) 35 99%
+#2019514: obj =   3.166666667e+00 inf =   4.388e-14 (0) 3 100%
++2019514: mip =     not found yet >=   3.000000000e+00        (1480; 83)
++2022959: mip =     not found yet >=   3.000000000e+00        (1485; 83)
+Time used: 6058.4 secs.  Memory used: 71.6 Mb.
++2025992: mip =     not found yet >=   3.000000000e+00        (1489; 83)
++2029236: mip =     not found yet >=   3.000000000e+00        (1497; 83)
++2033489: mip =     not found yet >=   3.000000000e+00        (1504; 84)
+#2041614: obj =   3.142863330e+00 inf =   0.000e+00 (3492) 70 94%
+#2045176: obj =   3.162481419e+00 inf =   0.000e+00 (3162) 35 92%
+#2048687: obj =   3.181873960e+00 inf =   0.000e+00 (2816) 34 97%
+#2052468: obj =   3.205757204e+00 inf =   0.000e+00 (3285) 38 97%
+#2055785: obj =   3.214287071e+00 inf =   0.000e+00 (3719) 32 99%
+#2057818: obj =   3.250000000e+00 inf =   1.446e-13 (0) 21 99%
++2057818: mip =     not found yet >=   3.000000000e+00        (1507; 84)
++2061451: mip =     not found yet >=   3.000000000e+00        (1510; 84)
+Time used: 6118.5 secs.  Memory used: 72.5 Mb.
++2063693: mip =     not found yet >=   3.000000000e+00        (1513; 84)
++2066464: mip =     not found yet >=   3.000000000e+00        (1517; 84)
++2070173: mip =     not found yet >=   3.000000000e+00        (1524; 85)
++2075837: mip =     not found yet >=   3.000000000e+00        (1526; 85)
++2079582: mip =     not found yet >=   3.000000000e+00        (1530; 85)
++2082137: mip =     not found yet >=   3.000000000e+00        (1534; 85)
++2084739: mip =     not found yet >=   3.000000000e+00        (1538; 85)
++2088480: mip =     not found yet >=   3.000000000e+00        (1545; 85)
++2092266: mip =     not found yet >=   3.000000000e+00        (1546; 86)
+#2099311: obj =   3.500002465e+00 inf =   0.000e+00 (1238) 69 90%
+#2099741: obj =   3.500000000e+00 inf =   1.808e-13 (0) 4 100%
++2099741: mip =     not found yet >=   3.000000000e+00        (1547; 86)
+Time used: 6180.2 secs.  Memory used: 73.2 Mb.
++2103605: mip =     not found yet >=   3.000000000e+00        (1548; 86)
++2106583: mip =     not found yet >=   3.000000000e+00        (1551; 86)
+#2118292: obj =   3.333333345e+00 inf =   0.000e+00 (2553) 81 87%
+#2119671: obj =   3.333333333e+00 inf =   2.465e-14 (0) 14 99%
++2119671: mip =     not found yet >=   3.000000000e+00        (1561; 87)
++2124521: mip =     not found yet >=   3.000000000e+00        (1562; 87)
++2130183: mip =     not found yet >=   3.000000000e+00        (1562; 88)
++2136123: mip =     not found yet >=   3.000000000e+00        (1563; 88)
++2139254: mip =     not found yet >=   3.000000000e+00        (1565; 88)
++2141481: mip =     not found yet >=   3.000000000e+00        (1568; 88)
+Time used: 6241.9 secs.  Memory used: 73.9 Mb.
++2143976: mip =     not found yet >=   3.000000000e+00        (1572; 88)
++2151126: mip =     not found yet >=   3.000000000e+00        (1578; 88)
++2152512: mip =     not found yet >=   3.000000000e+00        (1585; 88)
++2153974: mip =     not found yet >=   3.000000000e+00        (1590; 88)
+#2164023: obj =   3.300386594e+00 inf =   0.000e+00 (3687) 83 86%
+#2167581: obj =   3.333334340e+00 inf =   0.000e+00 (183) 35 98%
+#2167624: obj =   3.333333333e+00 inf =   8.526e-14 (0) 100%
++2167624: mip =     not found yet >=   3.000000000e+00        (1593; 89)
++2171004: mip =     not found yet >=   3.000000000e+00        (1597; 89)
++2173719: mip =     not found yet >=   3.000000000e+00        (1601; 89)
+Time used: 6302.5 secs.  Memory used: 74.4 Mb.
++2178101: mip =     not found yet >=   3.000000000e+00        (1608; 89)
+#2186680: obj =   3.169896536e+00 inf =   0.000e+00 (2707) 68 86%
+#2187334: obj =   3.170394118e+00 inf =   2.646e-13 (0) 6 95%
++2187334: mip =     not found yet >=   3.000000000e+00        (1608; 90)
++2191417: mip =     not found yet >=   3.000000000e+00        (1613; 90)
++2193766: mip =     not found yet >=   3.000000000e+00        (1617; 90)
++2195389: mip =     not found yet >=   3.000000000e+00        (1621; 90)
++2196901: mip =     not found yet >=   3.000000000e+00        (1625; 90)
++2201233: mip =     not found yet >=   3.000000000e+00        (1629; 90)
++2202926: mip =     not found yet >=   3.000000000e+00        (1637; 90)
++2203529: mip =     not found yet >=   3.000000000e+00        (1645; 90)
+Time used: 6362.6 secs.  Memory used: 75.4 Mb.
++2206692: mip =     not found yet >=   3.000000000e+00        (1654; 91)
++2210799: mip =     not found yet >=   3.000000000e+00        (1655; 91)
++2212442: mip =     not found yet >=   3.000000000e+00        (1664; 92)
++2218287: mip =     not found yet >=   3.000000000e+00        (1665; 92)
++2221014: mip =     not found yet >=   3.000000000e+00        (1668; 92)
++2222955: mip =     not found yet >=   3.000000000e+00        (1673; 92)
++2227156: mip =     not found yet >=   3.000000000e+00        (1673; 93)
++2230545: mip =     not found yet >=   3.000000000e+00        (1676; 93)
++2239999: mip =     not found yet >=   3.000000000e+00        (1678; 93)
+Time used: 6422.8 secs.  Memory used: 76.9 Mb.
++2244404: mip =     not found yet >=   3.000000000e+00        (1681; 93)
+#2252629: obj =   3.081117397e+00 inf =   0.000e+00 (3791) 78 83%
+#2255544: obj =   3.082321347e+00 inf =   3.873e-14 (0) 28 78%
++2255544: mip =     not found yet >=   3.000000000e+00        (1683; 94)
+#2263900: obj =   3.330824047e+00 inf =   0.000e+00 (2087) 77 73%
+#2267216: obj =   3.500001130e+00 inf =   0.000e+00 (2437) 33 96%
+#2268056: obj =   3.500000000e+00 inf =   1.676e-13 (0) 8 100%
++2268056: mip =     not found yet >=   3.000000000e+00        (1685; 94)
++2270733: mip =     not found yet >=   3.000000000e+00        (1688; 94)
++2272528: mip =     not found yet >=   3.000000000e+00        (1692; 94)
++2274383: mip =     not found yet >=   3.000000000e+00        (1696; 94)
++2276277: mip =     not found yet >=   3.000000000e+00        (1700; 94)
+Time used: 6484.0 secs.  Memory used: 77.6 Mb.
++2282700: mip =     not found yet >=   3.000000000e+00        (1702; 94)
++2286379: mip =     not found yet >=   3.000000000e+00        (1705; 94)
++2288423: mip =     not found yet >=   3.000000000e+00        (1711; 94)
++2290399: mip =     not found yet >=   3.000000000e+00        (1717; 94)
++2292330: mip =     not found yet >=   3.000000000e+00        (1723; 94)
++2293916: mip =     not found yet >=   3.000000000e+00        (1730; 94)
++2297031: mip =     not found yet >=   3.000000000e+00        (1735; 95)
++2301416: mip =     not found yet >=   3.000000000e+00        (1736; 95)
++2303947: mip =     not found yet >=   3.000000000e+00        (1739; 95)
+Time used: 6545.8 secs.  Memory used: 78.3 Mb.
++2307147: mip =     not found yet >=   3.000000000e+00        (1742; 95)
++2308805: mip =     not found yet >=   3.000000000e+00        (1749; 95)
++2309690: mip =     not found yet >=   3.000000000e+00        (1757; 95)
++2310731: mip =     not found yet >=   3.000000000e+00        (1764; 95)
++2313063: mip =     not found yet >=   3.000000000e+00        (1771; 96)
+#2320466: obj =   3.106994203e+00 inf =   0.000e+00 (2983) 72 87%
+#2324301: obj =   3.114834981e+00 inf =   0.000e+00 (1990) 38 85%
+#2327022: obj =   3.115359922e+00 inf =   1.597e-14 (0) 27 85%
++2327022: mip =     not found yet >=   3.000000000e+00        (1772; 96)
++2330403: mip =     not found yet >=   3.000000000e+00        (1779; 96)
++2335429: mip =     not found yet >=   3.000000000e+00        (1785; 96)
++2341806: mip =     not found yet >=   3.000000000e+00        (1786; 96)
+Time used: 6614.5 secs.  Memory used: 78.7 Mb.
++2346746: mip =     not found yet >=   3.000000000e+00        (1787; 96)
++2350077: mip =     not found yet >=   3.000000000e+00        (1790; 97)
++2358573: mip =     not found yet >=   3.000000000e+00        (1795; 98)
++2362478: mip =     not found yet >=   3.000000000e+00        (1799; 98)
++2365405: mip =     not found yet >=   3.000000000e+00        (1802; 98)
++2368893: mip =     not found yet >=   3.000000000e+00        (1804; 98)
++2372703: mip =     not found yet >=   3.000000000e+00        (1805; 99)
+#2381684: obj =   3.217642052e+00 inf =   0.000e+00 (2099) 87 76%
+#2383664: obj =   3.220387054e+00 inf =   5.726e-14 (0) 19 97%
++2383664: mip =     not found yet >=   3.000000000e+00        (1806; 99)
++2387637: mip =     not found yet >=   3.000000000e+00        (1807; 99)
+Time used: 6679.1 secs.  Memory used: 79.3 Mb.
++2389025: mip =     not found yet >=   3.000000000e+00        (1812; 99)
++2392181: mip =     not found yet >=   3.000000000e+00        (1815; 99)
++2399983: mip =     not found yet >=   3.000000000e+00        (1817; 100)
++2403063: mip =     not found yet >=   3.000000000e+00        (1819; 100)
++2406087: mip =     not found yet >=   3.000000000e+00        (1823; 100)
++2408609: mip =     not found yet >=   3.000000000e+00        (1827; 100)
++2412864: mip =     not found yet >=   3.000000000e+00        (1836; 100)
++2413505: mip =     not found yet >=   3.000000000e+00        (1843; 100)
+#2421925: obj =   3.181675294e+00 inf =   0.000e+00 (2899) 73 86%
+#2423716: obj =   3.181782908e+00 inf =   6.236e-14 (0) 18 99%
++2423716: mip =     not found yet >=   3.000000000e+00        (1849; 101)
+Time used: 6749.1 secs.  Memory used: 80.1 Mb.
++2427679: mip =     not found yet >=   3.000000000e+00        (1851; 101)
++2431675: mip =     not found yet >=   3.000000000e+00        (1854; 101)
++2434211: mip =     not found yet >=   3.000000000e+00        (1859; 101)
++2438003: mip =     not found yet >=   3.000000000e+00        (1866; 101)
++2439750: mip =     not found yet >=   3.000000000e+00        (1873; 101)
++2441044: mip =     not found yet >=   3.000000000e+00        (1885; 101)
++2447793: mip =     not found yet >=   3.000000000e+00        (1899; 102)
++2450706: mip =     not found yet >=   3.000000000e+00        (1902; 102)
++2452695: mip =     not found yet >=   3.000000000e+00        (1907; 102)
+Time used: 6809.3 secs.  Memory used: 81.3 Mb.
++2455045: mip =     not found yet >=   3.000000000e+00        (1912; 102)
+#2466130: obj =   3.228942965e+00 inf =   0.000e+00 (2897) 76 85%
+#2467940: obj =   3.229486760e+00 inf =   1.156e-13 (0) 18 98%
++2467940: mip =     not found yet >=   3.000000000e+00        (1915; 103)
++2472211: mip =     not found yet >=   3.000000000e+00        (1916; 103)
++2475365: mip =     not found yet >=   3.000000000e+00        (1921; 103)
++2477144: mip =     not found yet >=   3.000000000e+00        (1926; 103)
++2484700: mip =     not found yet >=   3.000000000e+00        (1932; 104)
++2489710: mip =     not found yet >=   3.000000000e+00        (1934; 104)
++2499894: mip =     not found yet >=   3.000000000e+00        (1938; 105)
+Time used: 6873.4 secs.  Memory used: 83.0 Mb.
++2506162: mip =     not found yet >=   3.000000000e+00        (1939; 105)
++2510414: mip =     not found yet >=   3.000000000e+00        (1945; 105)
+#2519045: obj =   3.454761924e+00 inf =   0.000e+00 (2555) 85 92%
+#2519814: obj =   3.454802260e+00 inf =   8.757e-14 (0) 7 98%
++2519814: mip =     not found yet >=   3.000000000e+00        (1946; 105)
++2522133: mip =     not found yet >=   3.000000000e+00        (1949; 105)
++2525715: mip =     not found yet >=   3.000000000e+00        (1953; 105)
++2527247: mip =     not found yet >=   3.000000000e+00        (1962; 105)
+#2537081: obj =   3.344152386e+00 inf =   0.000e+00 (3308) 80 85%
+#2540232: obj =   3.500000000e+00 inf =   8.375e-14 (0) 31 93%
++2540232: mip =     not found yet >=   3.000000000e+00        (1966; 106)
+Time used: 6934.4 secs.  Memory used: 83.4 Mb.
++2542818: mip =     not found yet >=   3.000000000e+00        (1969; 106)
++2546459: mip =     not found yet >=   3.000000000e+00        (1971; 106)
++2554676: mip =     not found yet >=   3.000000000e+00        (1979; 107)
++2558625: mip =     not found yet >=   3.000000000e+00        (1981; 107)
++2564530: mip =     not found yet >=   3.000000000e+00        (1984; 107)
++2568857: mip =     not found yet >=   3.000000000e+00        (1985; 108)
+#2575881: obj =   3.123295573e+00 inf =   0.000e+00 (2595) 69 94%
+#2579418: obj =   3.124236364e+00 inf =   0.000e+00 (1968) 35 98%
+#2580112: obj =   3.124535739e+00 inf =   1.152e-13 (0) 7 99%
++2580112: mip =     not found yet >=   3.000000000e+00        (1986; 108)
+Time used: 6995.0 secs.  Memory used: 84.4 Mb.
++2585957: mip =     not found yet >=   3.000000000e+00        (1997; 108)
++2590761: mip =     not found yet >=   3.000000000e+00        (1999; 108)
++2596839: mip =     not found yet >=   3.000000000e+00        (2001; 108)
++2600413: mip =     not found yet >=   3.000000000e+00        (2003; 108)
++2604369: mip =     not found yet >=   3.000000000e+00        (2005; 108)
++2608662: mip =     not found yet >=   3.000000000e+00        (2007; 108)
++2611259: mip =     not found yet >=   3.000000000e+00        (2011; 108)
++2613321: mip =     not found yet >=   3.000000000e+00        (2015; 108)
++2617568: mip =     not found yet >=   3.000000000e+00        (2020; 109)
+#2625891: obj =   3.499852102e+00 inf =   0.000e+00 (4365) 81 85%
+#2628724: obj =   3.500000000e+00 inf =   3.412e-13 (0) 28 100%
++2628724: mip =     not found yet >=   3.000000000e+00        (2021; 109)
+Time used: 7069.7 secs.  Memory used: 85.0 Mb.
++2630870: mip =     not found yet >=   3.000000000e+00        (2025; 109)
++2632594: mip =     not found yet >=   3.000000000e+00        (2029; 109)
++2635652: mip =     not found yet >=   3.000000000e+00        (2032; 109)
++2645821: mip =     not found yet >=   3.000000000e+00        (2037; 110)
++2648802: mip =     not found yet >=   3.000000000e+00        (2040; 110)
++2653299: mip =     not found yet >=   3.000000000e+00        (2046; 110)
++2656736: mip =     not found yet >=   3.000000000e+00        (2059; 110)
++2657800: >>>>>   5.000000000e+00 >=   3.000000000e+00  40.0% (2067; 110)
+#2668529: obj =   3.500000289e+00 inf =   0.000e+00 (3537) 80 83%
+#2670626: obj =   3.500000000e+00 inf =   4.415e-13 (0) 20 100%
++2670626: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1521; 1191)
+Time used: 7134.8 secs.  Memory used: 86.2 Mb.
++2673544: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1525; 1191)
++2676152: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1529; 1191)
++2677078: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1534; 1191)
++2678025: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1543; 1191)
++2684816: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1543; 1192)
++2693492: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1546; 1192)
++2697659: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1547; 1194)
++2700999: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1550; 1194)
+Time used: 7195.5 secs.  Memory used: 86.2 Mb.
++2703041: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1554; 1194)
++2705355: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1558; 1194)
++2710346: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1558; 1195)
++2713050: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1561; 1195)
++2715032: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1564; 1195)
++2716826: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1568; 1195)
++2722217: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1570; 1196)
++2725032: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1572; 1196)
+#2732057: obj =   3.249978934e+00 inf =   0.000e+00 (4467) 68 81%
+#2734749: obj =   3.250000000e+00 inf =   1.703e-13 (0) 27 100%
++2734749: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1573; 1196)
+Time used: 7255.8 secs.  Memory used: 86.2 Mb.
++2737506: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1576; 1196)
++2739611: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1579; 1196)
++2742836: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1583; 1196)
++2746411: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1586; 1197)
++2751953: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1587; 1197)
++2754978: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1591; 1197)
++2757125: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1594; 1197)
++2759162: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1597; 1197)
++2761513: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1601; 1197)
++2763672: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1605; 1197)
+Time used: 7319.0 secs.  Memory used: 86.2 Mb.
++2767708: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1605; 1198)
++2776057: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1607; 1198)
++2781312: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1608; 1198)
++2783308: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1611; 1198)
++2785949: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1615; 1198)
++2790213: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1622; 1198)
+#2801518: obj =   3.331991998e+00 inf =   0.000e+00 (7169) 79 82%
+#2805288: obj =   3.333324057e+00 inf =   0.000e+00 (1926) 37 99%
+#2806263: obj =   3.333333333e+00 inf =   5.281e-14 (0) 10 99%
++2806263: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1629; 1199)
+Time used: 7379.7 secs.  Memory used: 86.2 Mb.
++2811161: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1631; 1199)
++2812987: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1635; 1199)
++2815464: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1639; 1199)
++2818330: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1648; 1199)
++2824915: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1652; 1200)
++2830768: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1653; 1200)
++2836038: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1656; 1200)
++2838314: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1659; 1200)
+Time used: 7441.2 secs.  Memory used: 86.2 Mb.
++2841085: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1663; 1200)
++2847929: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1671; 1201)
++2852532: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1672; 1201)
++2854440: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1676; 1201)
++2859035: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1677; 1202)
++2863433: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1681; 1202)
+#2871172: obj =   3.249984412e+00 inf =   0.000e+00 (7342) 75 72%
+#2873992: obj =   3.250000000e+00 inf =   1.056e-13 (0) 28 100%
++2873992: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1682; 1202)
++2879421: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1683; 1203)
+Time used: 7503.7 secs.  Memory used: 86.2 Mb.
+#2887253: obj =   3.081548930e+00 inf =   0.000e+00 (1003) 77 69%
+ 2887619: sum =   0.000000000e+00 inf =   7.354e-15 (0) 3 92%
+#2887829: obj =   3.081550815e+00 inf =   1.850e-14 (0) 2 17%
++2887829: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1684; 1203)
+Warning: numerical instability (dual simplex, phase II)
++2894926: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1685; 1203)
++2900581: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1687; 1203)
+#2908124: obj =   3.212308553e+00 inf =   0.000e+00 (3466) 74 84%
+#2910211: obj =   3.213649633e+00 inf =   5.588e-14 (0) 20 94%
++2910211: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1688; 1203)
++2916599: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1690; 1204)
+#2923880: obj =   3.089362108e+00 inf =   0.000e+00 (4048) 72 88%
+#2927045: obj =   3.133333759e+00 inf =   0.000e+00 (2019) 31 90%
+#2928647: obj =   3.133333333e+00 inf =   1.770e-13 (0) 16 100%
++2928647: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1691; 1204)
+Time used: 7574.2 secs.  Memory used: 86.2 Mb.
++2932878: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1692; 1204)
++2934962: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1696; 1204)
++2942832: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1698; 1205)
+#2950638: obj =   3.159090495e+00 inf =   0.000e+00 (3162) 77 81%
+#2953868: obj =   3.159095372e+00 inf =   0.000e+00 (3542) 31 99%
+#2955294: obj =   3.159345069e+00 inf =   2.631e-14 (0) 15 93%
++2955294: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1698; 1205)
++2957969: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1699; 1205)
++2962442: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1702; 1205)
++2965167: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1709; 1205)
+Time used: 7635.5 secs.  Memory used: 86.2 Mb.
++2968735: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1713; 1207)
++2976774: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1715; 1207)
++2979841: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1718; 1207)
++2983031: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1723; 1207)
++2990285: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1726; 1208)
++2993636: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1727; 1208)
++2996022: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1730; 1208)
++2997903: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1734; 1208)
++3002137: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1734; 1209)
+Time used: 7696.0 secs.  Memory used: 86.2 Mb.
++3011808: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1735; 1210)
++3014894: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1739; 1210)
++3018604: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1749; 1210)
+#3028714: obj =   3.333333716e+00 inf =   0.000e+00 (2691) 71 89%
+#3029773: obj =   3.333333333e+00 inf =   4.785e-14 (0) 10 100%
++3029773: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1756; 1211)
++3031861: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1759; 1211)
++3035430: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1762; 1211)
++3038642: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1771; 1211)
+Time used: 7756.4 secs.  Memory used: 86.7 Mb.
++3042841: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1776; 1212)
++3050128: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1777; 1212)
++3052745: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1780; 1212)
++3054727: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1784; 1212)
++3056546: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1788; 1212)
++3059058: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1793; 1212)
++3068647: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1799; 1213)
+#3076846: obj =   3.112732735e+00 inf =   0.000e+00 (682) 74 71%
+#3077078: obj =   3.112886892e+00 inf =   1.366e-14 (0) 2 26%
++3077078: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1802; 1213)
+Time used: 7817.9 secs.  Memory used: 87.2 Mb.
++3082626: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1804; 1213)
++3085055: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1808; 1213)
++3086446: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1812; 1213)
++3091994: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1812; 1214)
++3095396: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1816; 1215)
++3100552: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1817; 1215)
++3106183: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1818; 1215)
++3108386: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1821; 1215)
++3115183: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1822; 1216)
+Time used: 7878.8 secs.  Memory used: 87.6 Mb.
+#3123138: obj =   3.333334333e+00 inf =   0.000e+00 (938) 78 86%
+#3123728: obj =   3.333333333e+00 inf =   3.909e-13 (0) 5 100%
++3123728: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1823; 1216)
++3127359: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1824; 1216)
++3129503: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1827; 1216)
++3132361: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1831; 1216)
++3134739: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1836; 1216)
++3137192: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1842; 1216)
++3145671: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1851; 1217)
++3150685: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1852; 1217)
+Time used: 7939.0 secs.  Memory used: 88.0 Mb.
++3152896: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1855; 1217)
++3155671: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1861; 1217)
++3166158: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1867; 1218)
++3168917: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1870; 1218)
++3170818: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1875; 1218)
++3172587: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1881; 1218)
++3180867: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1882; 1219)
+#3188368: obj =   3.104140589e+00 inf =   0.000e+00 (3147) 74 90%
+#3191905: obj =   3.155556200e+00 inf =   0.000e+00 (7273) 35 81%
+#3195001: obj =   3.155555189e+00 inf =   0.000e+00 (4261) 30 100%
+#3196541: obj =   3.155802899e+00 inf =   1.014e-13 (0) 15 99%
++3196541: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1883; 1219)
+Time used: 8015.5 secs.  Memory used: 88.5 Mb.
+#3203305: obj =   3.308623658e+00 inf =   0.000e+00 (6456) 66 91%
+#3206652: obj =   3.309533834e+00 inf =   0.000e+00 (2861) 33 98%
+#3209982: obj =   3.311557656e+00 inf =   0.000e+00 (786) 33 98%
+#3210167: obj =   3.311690821e+00 inf =   7.115e-14 (0) 2 98%
++3210167: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1883; 1219)
++3212942: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1884; 1219)
++3214584: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1888; 1219)
++3218656: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1889; 1220)
++3227976: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1891; 1221)
++3230946: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1894; 1221)
+Time used: 8077.1 secs.  Memory used: 88.8 Mb.
++3233002: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1898; 1221)
++3236949: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1898; 1222)
++3243280: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1899; 1222)
++3246783: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1902; 1222)
++3249913: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1906; 1222)
++3252969: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1912; 1222)
++3258002: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1913; 1223)
++3261458: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1915; 1223)
++3264185: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1918; 1223)
+#3274044: obj =   3.096626393e+00 inf =   0.000e+00 (566) 78 66%
+#3274078: obj =   3.096626379e+00 inf =   8.402e-15 (0) 1 100%
++3274078: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1921; 1224)
+Time used: 8145.4 secs.  Memory used: 89.3 Mb.
++3277171: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1924; 1224)
++3278880: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1927; 1224)
++3285428: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1928; 1224)
++3290934: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1932; 1225)
+#3299566: obj =   3.314039967e+00 inf =   0.000e+00 (5352) 76 87%
+#3303316: obj =   3.333334144e+00 inf =   0.000e+00 (2133) 37 91%
+#3306738: obj =   3.500000973e+00 inf =   0.000e+00 (1431) 33 100%
+#3307171: obj =   3.500000000e+00 inf =   2.206e-13 (0) 5 100%
++3307171: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1934; 1225)
++3309680: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1937; 1225)
++3311479: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1941; 1225)
+Time used: 8205.6 secs.  Memory used: 89.7 Mb.
++3313170: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1945; 1225)
++3314884: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1950; 1225)
+#3324776: obj =   3.329568516e+00 inf =   0.000e+00 (3858) 74 78%
+#3327838: obj =   3.333333333e+00 inf =   7.665e-14 (0) 31 99%
++3327838: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1951; 1226)
++3331221: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1953; 1226)
++3336135: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1951; 1228)
++3341476: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1953; 1228)
+#3348881: obj =   3.275128870e+00 inf =   0.000e+00 (3842) 72 70%
+#3352383: obj =   3.333333112e+00 inf =   0.000e+00 (3069) 34 95%
+#3354572: obj =   3.333333333e+00 inf =   3.436e-13 (0) 21 100%
++3354572: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1954; 1228)
+Time used: 8273.1 secs.  Memory used: 90.0 Mb.
++3357744: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1955; 1228)
++3360518: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1958; 1228)
++3363883: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1961; 1228)
+#3371864: obj =   4.166667611e+00 inf =   0.000e+00 (890) 78 93%
+#3372153: obj =   4.166666667e+00 inf =   4.747e-14 (0) 3 100%
++3372153: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1960; 1229)
++3379655: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1962; 1229)
++3381117: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1968; 1229)
++3384889: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1970; 1229)
++3388395: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1971; 1229)
++3391743: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1971; 1231)
+Time used: 8336.9 secs.  Memory used: 90.4 Mb.
++3399757: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1973; 1231)
++3403410: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1974; 1231)
++3406510: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1978; 1231)
++3409676: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (1989; 1231)
++3412775: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2002; 1231)
++3421797: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2005; 1232)
++3425306: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2008; 1232)
++3434224: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2008; 1233)
+Time used: 8397.4 secs.  Memory used: 90.9 Mb.
++3436781: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2010; 1233)
++3438705: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2014; 1233)
++3440183: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2019; 1233)
++3445224: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2021; 1234)
++3450275: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2021; 1235)
+#3457272: obj =   3.500001440e+00 inf =   0.000e+00 (826) 68 90%
+#3457528: obj =   3.500000000e+00 inf =   3.508e-13 (0) 3 100%
++3457528: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2022; 1235)
++3461066: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2025; 1235)
++3464863: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2027; 1235)
++3472641: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2027; 1236)
+Time used: 8465.0 secs.  Memory used: 91.3 Mb.
++3475567: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2030; 1236)
++3478033: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2034; 1236)
++3480326: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2037; 1236)
+#3490405: obj =   3.001407556e+00 inf =   0.000e+00 (1083) 69 83%
+#3491264: obj =   3.001418822e+00 inf =   2.260e-14 (0) 8 83%
++3491264: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2039; 1237)
++3497061: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2040; 1237)
++3500069: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2043; 1237)
++3505029: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2044; 1238)
++3509605: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2045; 1239)
+Time used: 8525.1 secs.  Memory used: 91.8 Mb.
++3513631: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2046; 1240)
++3520365: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2047; 1240)
++3523008: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2050; 1240)
++3524962: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2054; 1240)
++3529010: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2057; 1240)
+#3539988: obj =   3.321612310e+00 inf =   0.000e+00 (3520) 75 79%
+#3542857: obj =   3.333333333e+00 inf =   4.936e-14 (0) 29 99%
++3542857: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2062; 1241)
++3545785: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2065; 1241)
+Time used: 8585.4 secs.  Memory used: 92.3 Mb.
++3550539: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2066; 1242)
++3556362: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2068; 1242)
++3558869: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2071; 1242)
++3561981: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2074; 1242)
++3569263: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2078; 1243)
++3573887: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2079; 1243)
++3576377: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2082; 1243)
++3582614: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2085; 1244)
+#3589833: obj =   3.000001812e+00 inf =   0.000e+00 (1883) 71 93%
+#3590478: obj =   3.000000000e+00 inf =   1.979e-13 (0) 6 100%
++3590478: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2086; 1244)
+Time used: 8654.4 secs.  Memory used: 92.7 Mb.
++3594347: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2088; 1244)
++3599464: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2089; 1244)
++3602119: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2092; 1244)
++3604694: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2096; 1244)
++3606847: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2100; 1244)
++3614854: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2101; 1245)
++3620930: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2102; 1245)
++3622216: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2107; 1245)
+Time used: 8714.9 secs.  Memory used: 93.1 Mb.
++3623774: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2111; 1245)
++3626193: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2115; 1245)
++3627661: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2119; 1245)
++3631444: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2119; 1246)
++3633967: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2121; 1246)
+#3642127: obj =   3.063646237e+00 inf =   0.000e+00 (2360) 69 78%
+#3645587: obj =   3.065468291e+00 inf =   2.024e-14 (0) 34 63%
++3645587: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2123; 1246)
++3648755: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2127; 1246)
++3650842: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2132; 1246)
+Time used: 8777.7 secs.  Memory used: 93.5 Mb.
++3657193: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2136; 1246)
++3661162: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2138; 1246)
++3664965: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2140; 1246)
++3667232: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2143; 1246)
++3669440: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2147; 1246)
++3671680: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2150; 1246)
++3673682: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2153; 1246)
++3679762: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2153; 1247)
+#3686485: obj =   3.080001112e+00 inf =   0.000e+00 (1739) 66 95%
+#3689964: obj =   3.080409226e+00 inf =   0.000e+00 (3056) 34 89%
+ 3691651: sum =   0.000000000e+00 inf =   1.812e-14 (0) 16 71%
+Warning: numerical instability (dual simplex, phase II)
+ 3692591: sum =   0.000000000e+00 inf =   4.297e-14 (0) 7 39%
+Warning: numerical instability (dual simplex, phase II)
+ 3693323: sum =   0.000000000e+00 inf =   6.786e-16 (0) 6 18%
+Warning: numerical instability (dual simplex, phase II)
+ 3693768: sum =   0.000000000e+00 inf =   1.081e-15 (0) 4 30%
+Warning: numerical instability (dual simplex, phase II)
+Warning: numerical instability (dual simplex, phase II)
+ 3694024: sum =   0.000000000e+00 inf =   7.415e-08 (0) 3 42%
+Warning: numerical instability (dual simplex, phase II)
+ 3694824: sum =   0.000000000e+00 inf =   6.050e-14 (0) 7 19%
+#3695606: obj =   3.080437748e+00 inf =   9.189e-08 (0) 8 5%
++3695606: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2154; 1247)
+Time used: 8853.3 secs.  Memory used: 94.0 Mb.
+Warning: numerical instability (dual simplex, phase I)
+Warning: numerical instability (dual simplex, phase II)
+Warning: numerical instability (dual simplex, phase II)
++3699627: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2155; 1247)
++3702561: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2157; 1247)
++3705103: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2162; 1247)
+Warning: numerical instability (dual simplex, phase II)
++3710870: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2165; 1247)
++3714958: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2166; 1247)
++3717984: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2168; 1248)
+#3725203: obj =   3.050242804e+00 inf =   0.000e+00 (1025) 71 64%
+#3725813: obj =   3.050244569e+00 inf =   6.217e-14 (0) 6 60%
++3725813: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2169; 1248)
++3727889: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2174; 1248)
+Time used: 8913.6 secs.  Memory used: 94.3 Mb.
++3729965: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2181; 1248)
+Warning: numerical instability (dual simplex, phase II)
+Warning: numerical instability (dual simplex, phase II)
++3733665: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2184; 1248)
+#3740686: obj =   3.062016279e+00 inf =   0.000e+00 (3493) 68 71%
+#3744063: obj =   3.063713610e+00 inf =   0.000e+00 (1912) 33 84%
+#3745773: obj =   3.063930739e+00 inf =   3.752e-14 (0) 17 82%
++3745773: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2184; 1249)
++3751061: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2188; 1249)
++3755214: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2195; 1249)
++3759571: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2196; 1249)
++3762657: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2198; 1249)
+Time used: 8973.9 secs.  Memory used: 94.7 Mb.
++3764484: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2201; 1249)
++3766078: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2204; 1249)
++3767814: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2207; 1249)
++3774868: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2208; 1250)
+#3782404: obj =   3.042119471e+00 inf =   0.000e+00 (3834) 65 90%
+#3786108: obj =   3.050157799e+00 inf =   0.000e+00 (3129) 37 51%
+#3787257: obj =   3.051457125e+00 inf =   1.450e-14 (0) 11 80%
++3787257: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2210; 1250)
++3791659: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2214; 1250)
++3796065: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2214; 1251)
+Time used: 9036.6 secs.  Memory used: 95.1 Mb.
++3798489: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2217; 1251)
++3800489: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2220; 1251)
++3802785: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2223; 1251)
++3805278: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2227; 1251)
++3807067: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2230; 1251)
++3808930: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2234; 1251)
++3812545: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2234; 1252)
++3815843: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2233; 1254)
++3818506: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2236; 1254)
+#3826231: obj =   3.063478879e+00 inf =   0.000e+00 (1413) 69 85%
+ 3829073: sum =   0.000000000e+00 inf =   2.617e-13 (0) 27 86%
+Warning: numerical instability (dual simplex, phase II)
+ 3829720: sum =   0.000000000e+00 inf =   8.176e-15 (0) 6 38%
+Warning: numerical instability (dual simplex, phase II)
+Warning: numerical instability (dual simplex, phase I)
+ 3829974: sum =   0.000000000e+00 inf =   1.314e-06 (0) 2 21%
+Warning: numerical instability (dual simplex, phase II)
+ 3830510: sum =   0.000000000e+00 inf =   1.897e-15 (0) 4 48%
+#3831307: obj =   3.063569119e+00 inf =   4.335e-14 (0) 8 12%
++3831307: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2238; 1254)
+Time used: 9103.1 secs.  Memory used: 95.5 Mb.
++3834519: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2239; 1254)
++3838326: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2240; 1254)
++3840530: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2243; 1254)
++3842379: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2247; 1254)
++3843900: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2251; 1254)
++3845445: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2255; 1254)
++3849410: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2255; 1255)
++3853115: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2257; 1255)
++3859484: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2258; 1255)
+Time used: 9164.0 secs.  Memory used: 95.9 Mb.
++3862312: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2261; 1255)
++3864162: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2265; 1255)
++3866125: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2269; 1255)
++3870055: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2269; 1256)
+#3881178: obj =   3.333333699e+00 inf =   0.000e+00 (3185) 79 84%
+#3882818: obj =   3.333333333e+00 inf =   1.304e-13 (0) 16 100%
++3882818: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2271; 1256)
++3885697: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2273; 1256)
++3888291: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2276; 1256)
++3890275: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2280; 1256)
++3893638: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2287; 1256)
+Time used: 9224.2 secs.  Memory used: 96.4 Mb.
++3896799: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2297; 1256)
++3904438: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2301; 1257)
++3911147: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2302; 1257)
++3914031: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2306; 1257)
++3917453: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2313; 1257)
++3924913: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2315; 1258)
+#3933768: obj =   3.333334458e+00 inf =   0.000e+00 (2797) 78 74%
+#3934954: obj =   3.333333333e+00 inf =   6.359e-14 (0) 11 100%
++3934954: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2321; 1258)
+Time used: 9285.4 secs.  Memory used: 96.9 Mb.
++3937118: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2325; 1258)
++3940318: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2329; 1258)
++3943836: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2335; 1258)
++3946878: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2344; 1258)
++3951664: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2349; 1259)
++3955455: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2350; 1259)
++3959252: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2354; 1259)
++3961299: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2358; 1259)
++3965431: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2358; 1260)
++3969205: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2359; 1260)
+Time used: 9345.9 secs.  Memory used: 97.5 Mb.
++3973897: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2363; 1260)
++3981181: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2364; 1261)
++3985614: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2366; 1261)
++3987723: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2371; 1261)
++3989955: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2374; 1261)
++3995528: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2375; 1262)
++3999633: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2383; 1262)
++4004900: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2383; 1263)
++4011415: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2386; 1264)
+Time used: 9406.1 secs.  Memory used: 98.0 Mb.
++4015169: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2388; 1264)
++4017128: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2392; 1264)
++4019587: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2396; 1264)
++4027121: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2398; 1265)
+#4035818: obj =   3.041906578e+00 inf =   0.000e+00 (3093) 68 77%
+#4039533: obj =   3.049976885e+00 inf =   0.000e+00 (988) 37 68%
+#4040627: obj =   3.050064729e+00 inf =   3.226e-14 (0) 11 91%
++4040627: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2408; 1266)
++4043141: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2412; 1266)
++4046773: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2415; 1266)
++4051402: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2421; 1266)
+Time used: 9469.9 secs.  Memory used: 98.4 Mb.
++4055250: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2422; 1266)
++4057624: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2425; 1266)
++4059985: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2429; 1266)
++4062151: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2432; 1266)
++4064889: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2434; 1267)
++4068774: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2436; 1267)
++4078692: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2440; 1267)
++4083473: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2443; 1267)
+Time used: 9530.6 secs.  Memory used: 98.8 Mb.
++4089388: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2447; 1267)
+#4100645: obj =   3.330890725e+00 inf =   0.000e+00 (4717) 84 88%
+#4104053: obj =   3.333333333e+00 inf =   5.335e-13 (0) 33 99%
++4104053: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2454; 1268)
+#4111659: obj =   3.499999389e+00 inf =   0.000e+00 (2483) 74 83%
+#4114046: obj =   3.500000000e+00 inf =   5.115e-14 (0) 23 100%
++4114046: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2455; 1268)
++4117851: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2457; 1268)
++4120331: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2461; 1268)
++4122555: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2464; 1268)
+Time used: 9591.6 secs.  Memory used: 99.3 Mb.
++4124492: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2468; 1268)
+#4132686: obj =   4.166666344e+00 inf =   0.000e+00 (1405) 76 92%
+#4133593: obj =   4.166666667e+00 inf =   7.856e-14 (0) 9 99%
++4133593: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2468; 1269)
++4140939: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2469; 1269)
++4146023: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2475; 1269)
++4153108: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2478; 1269)
++4155141: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2485; 1269)
++4160481: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2489; 1270)
+Time used: 9655.5 secs.  Memory used: 99.7 Mb.
+#4167597: obj =   3.047317411e+00 inf =   0.000e+00 (2071) 70 72%
+#4171299: obj =   3.049513720e+00 inf =   0.000e+00 (1236) 36 72%
+#4173619: obj =   3.050064729e+00 inf =   1.945e-14 (0) 23 89%
++4173619: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2490; 1270)
++4178553: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2495; 1270)
++4184267: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2502; 1270)
++4187518: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2503; 1270)
++4189462: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2506; 1270)
++4191301: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2509; 1270)
+Time used: 9715.8 secs.  Memory used: 100.0 Mb.
++4193205: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2512; 1270)
++4195097: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2515; 1270)
++4198038: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2516; 1271)
+#4208267: obj =   3.142858623e+00 inf =   0.000e+00 (2524) 74 91%
+#4210062: obj =   3.200000000e+00 inf =   3.772e-13 (0) 18 99%
++4210062: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2518; 1271)
++4212380: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2522; 1271)
++4215058: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2525; 1271)
++4217240: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2529; 1271)
++4219061: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2533; 1271)
++4221177: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2538; 1271)
+Time used: 9776.2 secs.  Memory used: 100.4 Mb.
+#4231253: obj =   3.052248654e+00 inf =   0.000e+00 (2776) 75 70%
+ 4233526: sum =   0.000000000e+00 inf =   4.509e-15 (0) 20 61%
+Warning: numerical instability (dual simplex, phase II)
+ 4234794: sum =   0.000000000e+00 inf =   7.323e-09 (0) 12 35%
+#4235578: obj =   3.052808714e+00 inf =   5.036e-14 (0) 8 37%
++4235578: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2542; 1272)
++4244114: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2544; 1272)
++4248217: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2545; 1272)
+#4255456: obj =   3.219253922e+00 inf =   0.000e+00 (2792) 71 88%
+#4258712: obj =   3.220919924e+00 inf =   0.000e+00 (2985) 33 99%
+#4262042: obj =   3.221978569e+00 inf =   0.000e+00 (4164) 33 99%
+#4265308: obj =   3.222890693e+00 inf =   0.000e+00 (163) 32 97%
+#4265412: obj =   3.222890419e+00 inf =   7.768e-14 (0) 1 100%
++4265412: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2545; 1272)
+Time used: 9839.3 secs.  Memory used: 100.6 Mb.
++4268647: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2546; 1272)
++4271111: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2550; 1272)
++4273457: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2554; 1272)
++4279759: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2554; 1273)
+#4287877: obj =   3.200000919e+00 inf =   0.000e+00 (1771) 77 87%
+#4288202: obj =   3.200000000e+00 inf =   1.621e-13 (0) 4 100%
++4288202: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2555; 1273)
++4294987: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2556; 1273)
++4297443: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2559; 1273)
++4298944: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2563; 1273)
+Time used: 9900.6 secs.  Memory used: 101.1 Mb.
++4301184: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2567; 1273)
++4302978: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2571; 1273)
++4305114: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2576; 1273)
++4307351: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2581; 1273)
++4309951: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2588; 1274)
+#4317994: obj =   3.062587502e+00 inf =   0.000e+00 (1455) 79 74%
+#4319176: obj =   3.062923024e+00 inf =   1.964e-14 (0) 12 71%
++4319176: mip =   5.000000000e+00 >=   3.000000000e+00  40.0% (2589; 1274)
