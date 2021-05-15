@@ -7,7 +7,7 @@ from generateMatrix import colToMatrix
 ALPHA = 0.9
 MIN_TEMPERATURE = 0.001
 INITIAL_TEMPERATURE = 10.0
-MAX_ITERATIONS = 3000
+MAX_ITERATIONS = 10000
 
 matrixData = colToMatrix('2-FullIns_3.col')
 
@@ -15,7 +15,6 @@ matrixData = colToMatrix('2-FullIns_3.col')
 
 
 def color_graph(vertices, matrix):
-    colors_number = vertices
     cost = 0
     # Best results found
     bestSolution = []
@@ -24,25 +23,20 @@ def color_graph(vertices, matrix):
     # While the algorithm can reach a cost of zero
     # decreases the number of colors
     while(cost == 0):
-        solution, cost = simulated_annealing(
-            "file", colors_number, matrix)
-        if(cost == 0):
-            colors_number -= 1
-            bestSolution = solution
+        solution, cost = simulated_annealing(vertices, matrix)
     elapsed = (time.time() - start)
     print("FINAL-> " + "Solution: " + str(solution) + " / " + " Cost: " +
           str(cost) + " / " + " Time Elapsed: " + str(elapsed) + "seconds")
 
 
 # ANNEALING ALGORITHM
-def simulated_annealing(file, colors_number, matrix):
+def simulated_annealing(vertices_number, matrix):
     # matrix, vertices_number = readFile(file)
     matrix = matrix
-    vertices_number = 6
-    colors_number = colors_number - 1
+    vertices_number = vertices_number
+    colors_number = vertices_number - 1
     temperature = INITIAL_TEMPERATURE
     solution = generate_first_solution(vertices_number, colors_number, matrix)
-    first_solution = solution
     cost = get_cost(solution, vertices_number)
     vertice = get_next_vertice(vertices_number)
     while temperature > MIN_TEMPERATURE and cost != 0:
@@ -50,12 +44,13 @@ def simulated_annealing(file, colors_number, matrix):
         while i <= MAX_ITERATIONS:
             new_solution = generate_new_solution(
                 solution, colors_number, vertice, vertices_number, matrix)
-            new_cost = get_cost(solution, vertices_number)
+            new_cost = get_cost(new_solution, vertices_number)
             vertice = get_next_vertice(vertices_number)
             accept = acceptance(cost, new_cost, temperature)
             if accept > random():
-                solution = new_solution
+                solution = new_solution.copy()
                 cost = new_cost
+                colors_number = cost + 1
             i += 1
             print("Solution: " + str(solution) + " / " + " Temp: " +
                   str(temperature) + " / " + " Cost: " + str(cost))
@@ -84,7 +79,7 @@ def get_next_vertice(vertices_number):
 def get_cost(solution, vertices_number):
     cost = 0
     different_colors = []
-    for i in range(vertices_number):
+    for i in range(0, vertices_number):
         if solution[i] not in different_colors:
             different_colors.append(solution[i])
 
@@ -93,7 +88,7 @@ def get_cost(solution, vertices_number):
 
 def generate_first_solution(vertices_number, colors_number, matrix):
     solution = np.arange(vertices_number)
-    for i in range(vertices_number):
+    for i in range(0, vertices_number):
         solution[i] = randint(0, colors_number)
         while(not is_valid_color(solution, i, vertices_number, matrix)):
             solution[i] = randint(0, colors_number)
@@ -101,23 +96,24 @@ def generate_first_solution(vertices_number, colors_number, matrix):
 
 
 def is_valid_color(solution, vertice, vertices_number, matrix):
-    for i in range(vertices_number):
+    for i in range(0, vertices_number):
         if((i != vertice) and (matrix[i][vertice] == 1) and (solution[i] == solution[vertice])):
             return False
     return True
 
 
 def generate_new_solution(solution, colors_number, vertice, vertices_number, matrix):
-    old_color = solution[vertice]
-    solution[vertice] = randint(0, colors_number)
+    new_solution = solution.copy()
+    old_color = new_solution[vertice]
+    new_solution[vertice] = randint(0, colors_number)
     i = 0
-    while(not is_valid_color(solution, vertice, vertices_number, matrix) and (i < vertices_number)):
-        solution[vertice] = randint(0, colors_number)
+    while(not is_valid_color(new_solution, vertice, vertices_number, matrix) and (i < colors_number)):
+        new_solution[vertice] = randint(0, colors_number)
         i = i + 1
 
-    if (i == vertices_number):
-        solution[vertice] = old_color
-    return solution
+    if (i == colors_number):
+        new_solution[vertice] = old_color
+    return new_solution
 
 
 # Execute Program
