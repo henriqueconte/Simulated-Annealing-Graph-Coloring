@@ -1,21 +1,15 @@
+import sys
 import numpy as np
 import time
 from random import random, randint, choice
+from generateMatrix import colToMatrix
 
 ALPHA = 0.9
 MIN_TEMPERATURE = 0.001
 INITIAL_TEMPERATURE = 10.0
 MAX_ITERATIONS = 100
 
-matrixEx = [
-    [0, 1, 0, 1, 1, 0],
-    [1, 0, 0, 0, 1, 1],
-    [0, 0, 0, 0, 1, 1],
-    [1, 0, 0, 0, 1, 0],
-    [1, 1, 1, 1, 0, 0],
-    [0, 1, 1, 0, 0, 0]
-]
-
+matrixData = colToMatrix('2-FullIns_3.col')
 
 # MAIN PROGRAM
 
@@ -133,6 +127,6 @@ def generate_new_solution(solution, colors_number, neighbour):
 
 # Execute Program
 if __name__ == "__main__":
-    vertices = 6
-    matrix = matrixEx
+    matrix = matrixData[0]
+    vertices = matrixData[1]
     color_graph(vertices, matrix)

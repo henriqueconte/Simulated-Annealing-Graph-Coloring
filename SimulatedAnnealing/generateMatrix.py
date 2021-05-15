@@ -36,7 +36,4 @@ def colToMatrix(file_name):
     matrix[i][j] = 1
     matrix[j][i] = 1
 
-  return matrix
-
-
-colToMatrix('2-FullIns_3.col')
+  return [matrix, vertex_count]
