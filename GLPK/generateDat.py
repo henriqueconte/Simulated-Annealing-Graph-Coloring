@@ -1,6 +1,6 @@
 import sys
 
-file_list = ['2-FullIns_3.col', '2-FullIns_4.col', '4-FullIns_3.col', '5-FullIns_3.col', 'queen5_5.col', 'queen6_6.col', 'queen7_7.col', 'queen9_9.col', 'queen10_10.col', 'queen11_11.col', 'quickTest.col']
+file_list = ['2-FullIns_3.col', '2-FullIns_4.col', '4-FullIns_3.col', '5-FullIns_3.col', 'queen5_5.col', 'queen6_6.col', 'queen7_7.col', 'queen9_9.col', 'queen10_10.col', 'queen11_11.col']
 
 def colToDat(file_name):
     input_filename = '../Instances/' + file_name
