@@ -5,7 +5,7 @@ from random import random, randint, choice
 ALPHA = 0.9
 MIN_TEMPERATURE = 0.001
 INITIAL_TEMPERATURE = 10.0
-MAX_ITERATIONS = 100
+MAX_ITERATIONS = 3000
 
 matrixEx = [
     [0, 1, 0, 1, 1, 0],
@@ -36,8 +36,8 @@ def color_graph(vertices, matrix):
             colors_number -= 1
             bestSolution = solution
     elapsed = (time.time() - start)
-    print("FINAL-> " + "Solution: " + str(bestSolution) + " / " + " Colors: " +
-          str(colors_number) + " / " + " Time Elapsed: " + str(elapsed) + "seconds")
+    print("FINAL-> " + "Solution: " + str(solution) + " / " + " Cost: " +
+          str(cost) + " / " + " Time Elapsed: " + str(elapsed) + "seconds")
 
 
 # ANNEALING ALGORITHM
@@ -45,27 +45,27 @@ def simulated_annealing(file, colors_number, matrix):
     # matrix, vertices_number = readFile(file)
     matrix = matrix
     vertices_number = 6
-    colors_number = colors_number
-    colors_number -= 1
+    colors_number = colors_number - 1
     temperature = INITIAL_TEMPERATURE
-    solution = generate_first_solution(vertices_number, colors_number)
-    cost, neighbour = checkCost(vertices_number, matrix, solution)
+    solution = generate_first_solution(vertices_number, colors_number, matrix)
+    first_solution = solution
+    cost = get_cost(solution, vertices_number)
+    vertice = get_next_vertice(vertices_number)
     while temperature > MIN_TEMPERATURE and cost != 0:
         i = 0
         while i <= MAX_ITERATIONS:
             new_solution = generate_new_solution(
-                solution, colors_number, neighbour)
-            new_cost, neighbour = checkCost(
-                vertices_number, matrix, solution)
+                solution, colors_number, vertice, vertices_number, matrix)
+            new_cost = get_cost(solution, vertices_number)
+            vertice = get_next_vertice(vertices_number)
             accept = acceptance(cost, new_cost, temperature)
             if accept > random():
                 solution = new_solution
                 cost = new_cost
             i += 1
-            print("Solution: " + str(solution) + " / " + " Colors: "
-                  + str(colors_number + 1) + " / " + " Temp: " + str(temperature) + " / " + " Cost: " + str(cost))
+            print("Solution: " + str(solution) + " / " + " Temp: " +
+                  str(temperature) + " / " + " Cost: " + str(cost))
         temperature = temperature * ALPHA
-    colors_number += 1
     return solution, cost
 
 # Generate Acceptance Probability based on the function:
@@ -80,54 +80,49 @@ def acceptance(old_cost, new_cost, temperature):
         return accept
 
 # Calculates cost of the the solution based on the number of collisions
-# and which collision to process
+# and which collision to processs
 
 
-def checkCost(vertices_number, matrix, solution):
+def get_next_vertice(vertices_number):
+    return randint(0, vertices_number - 1)
+
+
+def get_cost(solution, vertices_number):
     cost = 0
-    collision_list = []
-    neighbour_index = -1
+    different_colors = []
     for i in range(vertices_number):
-        for j in range(vertices_number):
-            if((i != j) and (matrix[i][j] == 1) and (solution[i] == solution[j])):
-                cost += 1
-                collision_list.append(i)
-    if(neighbour_index == -1):
-        prob = randint(1, 2)
-        # Chooses a random collision to treat with 50% of chance
-        if(prob % 2 == 0 and len(collision_list) != 0):
-            neighbour_index = choice(collision_list)
-        elif(1 < i < (len(matrix) - 1)):
-            ap = randint(1, 3)
-            # Or chooses a random neighbour to a collision to treat
-            if(ap % 3 == 0):
-                neighbour_index = choice(collision_list)
-                neighbour_index = neighbour_index + prob
-            elif(ap % 3 == 2):
-                neighbour_index = choice(collision_list)
-                neighbour_index = neighbour_index - prob
-            else:
-                neighbour_index = choice(len(solution))
-    return cost, neighbour_index
+        if solution[i] not in different_colors:
+            different_colors.append(solution[i])
 
-# Fill the solution array with random colors
+    return len(different_colors)
 
 
-def generate_first_solution(vertices_number, colors_number):
+def generate_first_solution(vertices_number, colors_number, matrix):
     solution = np.arange(vertices_number)
     for i in range(vertices_number):
         solution[i] = randint(0, colors_number)
+        while(not is_valid_color(solution, i, vertices_number, matrix)):
+            solution[i] = randint(0, colors_number)
     return solution
 
-# Generate a new neighbour solution
+
+def is_valid_color(solution, vertice, vertices_number, matrix):
+    for i in range(vertices_number):
+        if((i != vertice) and (matrix[i][vertice] == 1) and (solution[i] == solution[vertice])):
+            return False
+    return True
 
 
-def generate_new_solution(solution, colors_number, neighbour):
-    oldColor = solution[neighbour]
-    newColor = randint(0, colors_number)
-    while (oldColor == newColor):
-        newColor = randint(0, colors_number)
-    solution[neighbour] = newColor
+def generate_new_solution(solution, colors_number, vertice, vertices_number, matrix):
+    old_color = solution[vertice]
+    solution[vertice] = randint(0, colors_number)
+    i = 0
+    while(not is_valid_color(solution, vertice, vertices_number, matrix) and (i < vertices_number)):
+        solution[vertice] = randint(0, colors_number)
+        i = i + 1
+
+    if (i == vertices_number):
+        solution[vertice] = old_color
     return solution
 
 
