@@ -16,12 +16,8 @@ matrixData = colToMatrix('2-FullIns_3.col')
 
 def color_graph(vertices, matrix):
     cost = 0
-    # Best results found
     bestSolution = []
-    # Count time used to process
     start = time.time()
-    # While the algorithm can reach a cost of zero
-    # decreases the number of colors
     while(cost == 0):
         solution, cost = simulated_annealing(vertices, matrix)
     elapsed = (time.time() - start)
@@ -31,7 +27,6 @@ def color_graph(vertices, matrix):
 
 # ANNEALING ALGORITHM
 def simulated_annealing(vertices_number, matrix):
-    # matrix, vertices_number = readFile(file)
     matrix = matrix
     vertices_number = vertices_number
     colors_number = vertices_number - 1
@@ -67,9 +62,6 @@ def acceptance(old_cost, new_cost, temperature):
     else:
         accept = np.exp(- (new_cost - old_cost) / temperature)
         return accept
-
-# Calculates cost of the the solution based on the number of collisions
-# and which collision to processs
 
 
 def get_next_vertice(vertices_number):
