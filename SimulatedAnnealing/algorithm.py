@@ -8,13 +8,13 @@ from generateMatrix import colToMatrix
 ALPHA = 0.9
 MIN_TEMPERATURE = 0.001
 INITIAL_TEMPERATURE = 10.0
-MAX_ITERATIONS = 15000
+MAX_ITERATIONS = 500
 FILE_NAME = '2-FullIns_3'
 SEED = 3
 
-instance_list = [FILE_NAME + '.col']
-
-# MAIN PROGRAM
+instance_list = ['2-FullIns_3.col', '2-FullIns_4.col', '4-FullIns_3.col', '5-FullIns_3.col',
+                 'queen5_5.col', 'queen6_6.col', 'queen7_7.col', 'queen9_9.col', 'queen10_10.col',
+                 'queen11_11.col']
 
 
 def color_graph(vertices, matrix):
@@ -26,7 +26,6 @@ def color_graph(vertices, matrix):
     return "FINAL-> " + "Solution: " + str(solution) + " / " + " Cost: " + str(cost) + " / " + " Time Elapsed: " + str(elapsed) + "seconds"
 
 
-# ANNEALING ALGORITHM
 def simulated_annealing(vertices_number, matrix):
     matrix = matrix
     vertices_number = vertices_number
@@ -106,7 +105,6 @@ def generate_new_solution(solution, colors_number, vertice, vertices_number, mat
     return new_solution
 
 
-# Execute Program
 if __name__ == "__main__":
     FILE_NAME = sys.argv[1]
     INITIAL_TEMPERATURE = float(sys.argv[2])
@@ -125,7 +123,6 @@ if __name__ == "__main__":
     results_file.write(f"MAX_ITERATIONS = {MAX_ITERATIONS}\n")
 
     for instance in instance_list:
-        # Translates instance to a usable matrix
         matrix, vertices = colToMatrix(instance)
         best_result = color_graph(vertices, matrix)
 
