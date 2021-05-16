@@ -2,11 +2,13 @@
 
 Como executar o algoritmo do Simulated Annealing:
 
-1 - Instalar a biblioteca numpy
+1 - Instalar o python3
 
-2 - Entrar na pasta SimmulatedAnneling
+2 - Instalar a biblioteca numpy
 
-3 - Executar o comando:
+3 - Entrar na pasta SimmulatedAnneling
+
+4 - Executar o comando:
   python algorithm.py arg1 arg2 arg3 arg4 arg5 arg6
 
   Os seis parâmetros de entrada são referentes à:
