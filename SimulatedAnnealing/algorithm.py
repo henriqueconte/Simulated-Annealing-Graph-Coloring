@@ -7,22 +7,19 @@ from generateMatrix import colToMatrix
 ALPHA = 0.9
 MIN_TEMPERATURE = 0.001
 INITIAL_TEMPERATURE = 10.0
-MAX_ITERATIONS = 10000
+MAX_ITERATIONS = 100
 
-matrixData = colToMatrix('2-FullIns_3.col')
+instance_list = ['2-FullIns_3.col', '2-FullIns_4.col', '4-FullIns_3.col', '5-FullIns_3.col', 'queen5_5.col', 'queen6_6.col', 'queen7_7.col', 'queen9_9.col', 'queen10_10.col', 'queen11_11.col']
 
 # MAIN PROGRAM
 
-
 def color_graph(vertices, matrix):
     cost = 0
-    bestSolution = []
     start = time.time()
     while(cost == 0):
         solution, cost = simulated_annealing(vertices, matrix)
     elapsed = (time.time() - start)
-    print("FINAL-> " + "Solution: " + str(solution) + " / " + " Cost: " +
-          str(cost) + " / " + " Time Elapsed: " + str(elapsed) + "seconds")
+    return "FINAL-> " + "Solution: " + str(solution) + " / " + " Cost: " + str(cost) + " / " + " Time Elapsed: " + str(elapsed) + "seconds"
 
 
 # ANNEALING ALGORITHM
@@ -51,9 +48,6 @@ def simulated_annealing(vertices_number, matrix):
                   str(temperature) + " / " + " Cost: " + str(cost))
         temperature = temperature * ALPHA
     return solution, cost
-
-# Generate Acceptance Probability based on the function:
-#  Acceptance = e*(-(new_cost - old_cost) / Temperature)
 
 
 def acceptance(old_cost, new_cost, temperature):
@@ -110,6 +104,18 @@ def generate_new_solution(solution, colors_number, vertice, vertices_number, mat
 
 # Execute Program
 if __name__ == "__main__":
-    matrix = matrixData[0]
-    vertices = matrixData[1]
-    color_graph(vertices, matrix)
+    results_file = open("results.txt", "w")
+
+    results_file.write(f"ALPHA = {ALPHA}\n")
+    results_file.write(f"MIN_TEMPERATURE = {MIN_TEMPERATURE}\n")
+    results_file.write(f"INITIAL_TEMPERATURE = {INITIAL_TEMPERATURE}\n")
+    results_file.write(f"MAX_ITERATIONS = {MAX_ITERATIONS}\n")
+
+    for instance in instance_list:
+        # Translates instance to a usable matrix
+        matrix, vertices = colToMatrix(instance)
+        best_result = color_graph(vertices, matrix)
+        
+        results_file.write(f"{instance}: {best_result}\n")
+    
+    results_file.close()
