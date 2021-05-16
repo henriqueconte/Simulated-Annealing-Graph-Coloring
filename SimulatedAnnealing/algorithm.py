@@ -12,18 +12,14 @@ MAX_ITERATIONS = 500
 FILE_NAME = '2-FullIns_3'
 SEED = 3
 
-instance_list = ['2-FullIns_3.col', '2-FullIns_4.col', '4-FullIns_3.col', '5-FullIns_3.col',
-                 'queen5_5.col', 'queen6_6.col', 'queen7_7.col', 'queen9_9.col', 'queen10_10.col',
-                 'queen11_11.col']
-
 
 def color_graph(vertices, matrix):
     cost = 0
     start = time.time()
     while(cost == 0):
         solution, cost = simulated_annealing(vertices, matrix)
-    elapsed = (time.time() - start)
-    return "FINAL-> " + "Solution: " + str(solution) + " / " + " Cost: " + str(cost) + " / " + " Time Elapsed: " + str(elapsed) + "seconds"
+    end = (time.time() - start)
+    return "Solution: " + str(solution) + " \nCost: " + str(cost) + "\nTime: " + str(end) + " seconds"
 
 
 def simulated_annealing(vertices_number, matrix):
@@ -47,8 +43,6 @@ def simulated_annealing(vertices_number, matrix):
                 cost = new_cost
                 colors_number = cost + 1
             i += 1
-            print("Solution: " + str(solution) + " / " + " Temp: " +
-                  str(temperature) + " / " + " Cost: " + str(cost))
         temperature = temperature * ALPHA
     return solution, cost
 
@@ -115,17 +109,5 @@ if __name__ == "__main__":
 
     random.seed(SEED)
 
-    results_file = open("results.txt", "w")
-
-    results_file.write(f"ALPHA = {ALPHA}\n")
-    results_file.write(f"MIN_TEMPERATURE = {MIN_TEMPERATURE}\n")
-    results_file.write(f"INITIAL_TEMPERATURE = {INITIAL_TEMPERATURE}\n")
-    results_file.write(f"MAX_ITERATIONS = {MAX_ITERATIONS}\n")
-
-    for instance in instance_list:
-        matrix, vertices = colToMatrix(instance)
-        best_result = color_graph(vertices, matrix)
-
-        results_file.write(f"{instance}: {best_result}\n")
-
-    results_file.close()
+    matrix, vertices = colToMatrix(FILE_NAME + '.col')
+    print(color_graph(vertices, matrix))
